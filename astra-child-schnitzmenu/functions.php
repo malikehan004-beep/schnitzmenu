@@ -7,7 +7,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'SM_VERSION', '1.0.0' );
+define( 'SM_VERSION', '1.1.0' );
 define( 'SM_DIR', get_stylesheet_directory() );
 define( 'SM_URI', get_stylesheet_directory_uri() );
 
@@ -15,41 +15,19 @@ require_once SM_DIR . '/inc/data.php';
 require_once SM_DIR . '/inc/shortcodes.php';
 require_once SM_DIR . '/inc/layout.php';
 require_once SM_DIR . '/inc/admin.php';
+require_once SM_DIR . '/inc/images.php';
+require_once SM_DIR . '/inc/performance.php';
 
 /**
- * Styles and scripts.
+ * Styles and scripts. Fonts are self-hosted (see assets/css/schnitz.css), so there is
+ * no request to Google Fonts.
  */
 function sm_enqueue_assets() {
-	wp_enqueue_style(
-		'sm-fonts',
-		'https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Open+Sans:wght@400;600&display=swap',
-		array(),
-		null
-	);
-	wp_enqueue_style( 'sm-child', SM_URI . '/assets/css/schnitz.css', array( 'astra-theme-css' ), SM_VERSION );
-	wp_enqueue_script( 'sm-child', SM_URI . '/assets/js/schnitz.js', array(), SM_VERSION, true );
+	wp_enqueue_style( 'sm-child', SM_URI . '/' . sm_asset( 'assets/css/schnitz.css' ), array( 'astra-theme-css' ), SM_VERSION );
+	wp_enqueue_script( 'sm-child', SM_URI . '/' . sm_asset( 'assets/js/schnitz.js' ), array(), SM_VERSION, true );
 	wp_script_add_data( 'sm-child', 'strategy', 'defer' );
 }
 add_action( 'wp_enqueue_scripts', 'sm_enqueue_assets', 20 );
-
-/**
- * Preconnect to Google Fonts so the fonts don't delay first paint.
- *
- * @param array  $urls          URLs to print for resource hints.
- * @param string $relation_type The relation type the URLs are printed for.
- * @return array
- */
-function sm_resource_hints( $urls, $relation_type ) {
-	if ( 'preconnect' === $relation_type ) {
-		$urls[] = 'https://fonts.googleapis.com';
-		$urls[] = array(
-			'href'        => 'https://fonts.gstatic.com',
-			'crossorigin' => 'anonymous',
-		);
-	}
-	return $urls;
-}
-add_filter( 'wp_resource_hints', 'sm_resource_hints', 10, 2 );
 
 /**
  * Theme supports and menus.

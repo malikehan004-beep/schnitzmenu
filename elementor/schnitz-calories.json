@@ -7,11 +7,11 @@
  },
  "content": [
   {
-   "id": "28a3065",
+   "id": "aa50143",
    "elType": "container",
    "settings": {
     "content_width": "boxed",
-    "flex_direction": "column",
+    "flex_direction": "row",
     "padding": {
      "unit": "px",
      "top": "44",
@@ -33,9 +33,19 @@
      "size": 1200,
      "sizes": []
     },
+    "flex_wrap": "wrap",
+    "flex_direction_mobile": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 28,
+     "column": "28",
+     "row": "28",
+     "isLinked": true
+    },
+    "flex_align_items": "center",
     "css_classes": "sm-hero",
     "background_background": "classic",
-    "background_color": "#D4471A",
+    "background_color": "#C74214",
     "min_height": {
      "unit": "px",
      "size": 220,
@@ -45,60 +55,144 @@
    },
    "elements": [
     {
-     "id": "2e52630",
-     "elType": "widget",
-     "widgetType": "text-editor",
+     "id": "f8c0f6c",
+     "elType": "container",
      "settings": {
-      "editor": "<p>[sm_updated]</p>",
-      "_css_classes": "sm-hero-badge"
-     },
-     "elements": []
-    },
-    {
-     "id": "50fbf5e",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "Schnitz Calories &amp; Nutrition Guide 2026 (Australia)",
-      "header_size": "h1",
-      "title_color": "#FFFFFF",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "700",
-      "typography_font_size": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "padding": {
        "unit": "px",
-       "size": 40,
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "16",
+       "bottom": "0",
+       "left": "16",
+       "isLinked": false
+      },
+      "width": {
+       "unit": "%",
+       "size": 55,
        "sizes": []
       },
-      "typography_font_size_mobile": {
-       "unit": "px",
-       "size": 27,
+      "width_mobile": {
+       "unit": "%",
+       "size": 100,
        "sizes": []
       }
      },
-     "elements": []
+     "elements": [
+      {
+       "id": "2e52630",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<p>[sm_updated]</p>",
+        "_css_classes": "sm-hero-badge"
+       },
+       "elements": []
+      },
+      {
+       "id": "50fbf5e",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Schnitz Calories &amp; Nutrition Guide 2026 (Australia)",
+        "header_size": "h1",
+        "title_color": "#FFFFFF",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "700",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 36,
+         "sizes": []
+        },
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 24,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "86cbb46",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<p>How many calories are in a Schnitz schnitzel? Calorie and kilojoule counts for popular Schnitz items, a top-10 chart and tips for a lighter order.</p>",
+        "text_color": "#FFDDD0",
+        "typography_typography": "custom",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 18,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": true
     },
     {
-     "id": "86cbb46",
-     "elType": "widget",
-     "widgetType": "text-editor",
+     "id": "444a46d",
+     "elType": "container",
      "settings": {
-      "editor": "<p>How many calories are in a Schnitz schnitzel? Calorie and kilojoule counts for popular Schnitz items, a top-10 chart and tips for a lighter order.</p>",
-      "text_color": "#FFDDD0",
-      "typography_typography": "custom",
-      "typography_font_size": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "padding": {
        "unit": "px",
-       "size": 18,
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "16",
+       "bottom": "0",
+       "left": "16",
+       "isLinked": false
+      },
+      "css_classes": "sm-hero-media",
+      "width": {
+       "unit": "%",
+       "size": 41,
+       "sizes": []
+      },
+      "width_mobile": {
+       "unit": "%",
+       "size": 100,
        "sizes": []
       }
      },
-     "elements": []
+     "elements": [
+      {
+       "id": "894f2c9",
+       "elType": "widget",
+       "widgetType": "shortcode",
+       "settings": {
+        "shortcode": "[sm_image name='cat-salads' eager='yes' sizes='(max-width: 767px) 92vw, 460px' class='sm-hero-img']"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": true
     }
    ],
    "isInner": false
   },
   {
-   "id": "444a46d",
+   "id": "387489c",
    "elType": "container",
    "settings": {
     "content_width": "boxed",
@@ -127,65 +221,20 @@
    },
    "elements": [
     {
-     "id": "f9a9a63",
+     "id": "a7ca432",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_breadcrumbs]"
+     },
+     "elements": []
+    },
+    {
+     "id": "184462d",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
       "editor": "<p>Schnitz meals are hearty. A classic <strong>Schnitzel &amp; Chips</strong> comes in at roughly <strong>779 calories (3,259 kJ)</strong>, a <strong>Parma &amp; Chips</strong> at about <strong>897 calories</strong>, and a <strong>Loaded Schnitzel &amp; Chips</strong> can reach around <strong>1,150 calories</strong>. For comparison, the average Australian adult daily intake used on food labels is 8,700 kJ (about 2,080 calories).</p><p>The figures on this page come from third-party nutrition databases and public sources. They are estimates &#8211; serving sizes, crumbs and sauces change the numbers. Where we do not have a reliable figure we leave it blank instead of guessing.</p>"
-     },
-     "elements": []
-    }
-   ],
-   "isInner": false
-  },
-  {
-   "id": "a50f49a",
-   "elType": "container",
-   "settings": {
-    "content_width": "boxed",
-    "flex_direction": "column",
-    "padding": {
-     "unit": "px",
-     "top": "30",
-     "right": "24",
-     "bottom": "30",
-     "left": "24",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "28",
-     "right": "16",
-     "bottom": "28",
-     "left": "16",
-     "isLinked": false
-    },
-    "boxed_width": {
-     "unit": "px",
-     "size": 1200,
-     "sizes": []
-    },
-    "css_classes": "sm-band",
-    "background_background": "classic",
-    "background_color": "#FFF3EE"
-   },
-   "elements": [
-    {
-     "id": "a7ca432",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "Schnitz Calorie Chart &#8211; Top Items",
-      "header_size": "h2"
-     },
-     "elements": []
-    },
-    {
-     "id": "3e20faf",
-     "elType": "widget",
-     "widgetType": "shortcode",
-     "settings": {
-      "shortcode": "[sm_calorie_chart top='10']"
      },
      "elements": []
     }
@@ -200,6 +249,60 @@
     "flex_direction": "column",
     "padding": {
      "unit": "px",
+     "top": "30",
+     "right": "24",
+     "bottom": "30",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "28",
+     "right": "16",
+     "bottom": "28",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    },
+    "css_classes": "sm-band",
+    "background_background": "classic",
+    "background_color": "#FFF3EE"
+   },
+   "elements": [
+    {
+     "id": "f48dace",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Schnitz Calorie Chart &#8211; Top Items",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "9c88f1b",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_calorie_chart top='10']"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "5b19e4e",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
      "top": "24",
      "right": "0",
      "bottom": "16",
@@ -222,7 +325,7 @@
    },
    "elements": [
     {
-     "id": "9c88f1b",
+     "id": "4e6574d",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -232,7 +335,7 @@
      "elements": []
     },
     {
-     "id": "f48dace",
+     "id": "277e88e",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -241,7 +344,7 @@
      "elements": []
     },
     {
-     "id": "5e3bab6",
+     "id": "61b9a14",
      "elType": "widget",
      "widgetType": "shortcode",
      "settings": {
@@ -253,7 +356,7 @@
    "isInner": false
   },
   {
-   "id": "3c4fc5d",
+   "id": "e8c48df",
    "elType": "container",
    "settings": {
     "content_width": "boxed",
@@ -285,7 +388,7 @@
    },
    "elements": [
     {
-     "id": "61b9a14",
+     "id": "0dc5569",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -295,62 +398,11 @@
      "elements": []
     },
     {
-     "id": "4e6574d",
+     "id": "fd5f33c",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
       "editor": "<ul><li><strong>Swap chips for salad.</strong> Chips add several hundred calories to any plate.</li><li><strong>Go for a salad with schnitzel.</strong> You still get the schnitzel without the bun or wrap.</li><li><strong>Try a crumb-free flavour.</strong> Lemon pepper or Moroccan spices skip the crumb coating.</li><li><strong>Watch the sauces.</strong> Creamy mayo and aioli add up quickly. Ask for sauce on the side.</li><li><strong>Share the tenders.</strong> One original tender is about 152 calories.</li><li><strong>Choose water.</strong> A 600ml soft drink can add around 250 calories.</li></ul>"
-     },
-     "elements": []
-    }
-   ],
-   "isInner": false
-  },
-  {
-   "id": "59fa43e",
-   "elType": "container",
-   "settings": {
-    "content_width": "boxed",
-    "flex_direction": "column",
-    "padding": {
-     "unit": "px",
-     "top": "24",
-     "right": "0",
-     "bottom": "16",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "24",
-     "right": "16",
-     "bottom": "16",
-     "left": "16",
-     "isLinked": false
-    },
-    "boxed_width": {
-     "unit": "px",
-     "size": 1200,
-     "sizes": []
-    }
-   },
-   "elements": [
-    {
-     "id": "00972e4",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "Which Schnitz Item Has the Most Calories?",
-      "header_size": "h2"
-     },
-     "elements": []
-    },
-    {
-     "id": "0dc5569",
-     "elType": "widget",
-     "widgetType": "text-editor",
-     "settings": {
-      "editor": "<p>Based on available data, the <strong>Loaded Schnitzel &amp; Chips</strong> is the highest-calorie single item at around 1,150 calories (approx.). Large tender packs meant for sharing will be higher in total, but they are designed to split between two or more people.</p>"
      },
      "elements": []
     }
@@ -383,8 +435,7 @@
      "unit": "px",
      "size": 1200,
      "sizes": []
-    },
-    "_element_id": "faq"
+    }
    },
    "elements": [
     {
@@ -392,7 +443,7 @@
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "Schnitz Nutrition FAQ",
+      "title": "Which Schnitz Item Has the Most Calories?",
       "header_size": "h2"
      },
      "elements": []
@@ -402,12 +453,64 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
+      "editor": "<p>Based on available data, the <strong>Loaded Schnitzel &amp; Chips</strong> is the highest-calorie single item at around 1,150 calories (approx.). Large tender packs meant for sharing will be higher in total, but they are designed to split between two or more people.</p>"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "4711652",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    },
+    "_element_id": "faq"
+   },
+   "elements": [
+    {
+     "id": "e239235",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Schnitz Nutrition FAQ",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "94bcb93",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
       "editor": "<p>Quick answers to the questions Australians search most about Schnitz.</p>"
      },
      "elements": []
     },
     {
-     "id": "bde4b3e",
+     "id": "92cf964",
      "elType": "widget",
      "widgetType": "shortcode",
      "settings": {
@@ -419,7 +522,48 @@
    "isInner": false
   },
   {
-   "id": "df24a13",
+   "id": "8d9fd07",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "10",
+     "right": "0",
+     "bottom": "10",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "10",
+     "right": "16",
+     "bottom": "10",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "fb39ce4",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_author]"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "3e8dac2",
    "elType": "container",
    "settings": {
     "content_width": "boxed",
@@ -448,7 +592,7 @@
    },
    "elements": [
     {
-     "id": "e239235",
+     "id": "4016453",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -458,7 +602,7 @@
      "elements": []
     },
     {
-     "id": "92cf964",
+     "id": "af92c47",
      "elType": "widget",
      "widgetType": "shortcode",
      "settings": {

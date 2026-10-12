@@ -5,7 +5,7 @@ the WordPress importer untouched (it strips slashes from post meta).
 """
 import hashlib
 
-BRAND = "#D4471A"
+BRAND = "#C74214"
 BRAND_DARK = "#A8360F"
 TINT = "#FFF3EE"
 NAVY = "#1A1A2E"

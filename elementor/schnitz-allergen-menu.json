@@ -7,11 +7,11 @@
  },
  "content": [
   {
-   "id": "a3fc2ba",
+   "id": "c1d18fc",
    "elType": "container",
    "settings": {
     "content_width": "boxed",
-    "flex_direction": "column",
+    "flex_direction": "row",
     "padding": {
      "unit": "px",
      "top": "44",
@@ -33,9 +33,19 @@
      "size": 1200,
      "sizes": []
     },
+    "flex_wrap": "wrap",
+    "flex_direction_mobile": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 28,
+     "column": "28",
+     "row": "28",
+     "isLinked": true
+    },
+    "flex_align_items": "center",
     "css_classes": "sm-hero",
     "background_background": "classic",
-    "background_color": "#D4471A",
+    "background_color": "#C74214",
     "min_height": {
      "unit": "px",
      "size": 220,
@@ -45,60 +55,144 @@
    },
    "elements": [
     {
-     "id": "16039b0",
-     "elType": "widget",
-     "widgetType": "text-editor",
+     "id": "afd04de",
+     "elType": "container",
      "settings": {
-      "editor": "<p>[sm_updated]</p>",
-      "_css_classes": "sm-hero-badge"
-     },
-     "elements": []
-    },
-    {
-     "id": "8c6c1d2",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "Schnitz Allergen Menu 2026 &#8211; Gluten, Egg, Milk, Soy &amp; Sesame",
-      "header_size": "h1",
-      "title_color": "#FFFFFF",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "700",
-      "typography_font_size": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "padding": {
        "unit": "px",
-       "size": 40,
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "16",
+       "bottom": "0",
+       "left": "16",
+       "isLinked": false
+      },
+      "width": {
+       "unit": "%",
+       "size": 55,
        "sizes": []
       },
-      "typography_font_size_mobile": {
-       "unit": "px",
-       "size": 27,
+      "width_mobile": {
+       "unit": "%",
+       "size": 100,
        "sizes": []
       }
      },
-     "elements": []
+     "elements": [
+      {
+       "id": "16039b0",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<p>[sm_updated]</p>",
+        "_css_classes": "sm-hero-badge"
+       },
+       "elements": []
+      },
+      {
+       "id": "8c6c1d2",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Schnitz Allergen Menu 2026 &#8211; Gluten, Egg, Milk, Soy &amp; Sesame",
+        "header_size": "h1",
+        "title_color": "#FFFFFF",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "700",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 36,
+         "sizes": []
+        },
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 24,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "7b320c2",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<p>A clear allergen guide for the Schnitz menu in Australia, organised by crumb and coating. Always confirm with your local store before ordering.</p>",
+        "text_color": "#FFDDD0",
+        "typography_typography": "custom",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 18,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": true
     },
     {
-     "id": "7b320c2",
-     "elType": "widget",
-     "widgetType": "text-editor",
+     "id": "fd5383e",
+     "elType": "container",
      "settings": {
-      "editor": "<p>A clear allergen guide for the Schnitz menu in Australia, organised by crumb and coating. Always confirm with your local store before ordering.</p>",
-      "text_color": "#FFDDD0",
-      "typography_typography": "custom",
-      "typography_font_size": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "padding": {
        "unit": "px",
-       "size": 18,
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "16",
+       "bottom": "0",
+       "left": "16",
+       "isLinked": false
+      },
+      "css_classes": "sm-hero-media",
+      "width": {
+       "unit": "%",
+       "size": 41,
+       "sizes": []
+      },
+      "width_mobile": {
+       "unit": "%",
+       "size": 100,
        "sizes": []
       }
      },
-     "elements": []
+     "elements": [
+      {
+       "id": "73ae2e4",
+       "elType": "widget",
+       "widgetType": "shortcode",
+       "settings": {
+        "shortcode": "[sm_image name='cat-tenders-schnacks' eager='yes' sizes='(max-width: 767px) 92vw, 460px' class='sm-hero-img']"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": true
     }
    ],
    "isInner": false
   },
   {
-   "id": "fd5383e",
+   "id": "6c29caa",
    "elType": "container",
    "settings": {
     "content_width": "boxed",
@@ -127,7 +221,16 @@
    },
    "elements": [
     {
-     "id": "0efb221",
+     "id": "ea1d6ed",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_breadcrumbs]"
+     },
+     "elements": []
+    },
+    {
+     "id": "c383398",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -139,7 +242,7 @@
    "isInner": false
   },
   {
-   "id": "9587775",
+   "id": "ff61d99",
    "elType": "container",
    "settings": {
     "content_width": "boxed",
@@ -171,7 +274,7 @@
    },
    "elements": [
     {
-     "id": "ea1d6ed",
+     "id": "cd26655",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -181,7 +284,7 @@
      "elements": []
     },
     {
-     "id": "ae546b6",
+     "id": "0d4e01a",
      "elType": "widget",
      "widgetType": "shortcode",
      "settings": {
@@ -193,7 +296,7 @@
    "isInner": false
   },
   {
-   "id": "ccc863e",
+   "id": "b35f329",
    "elType": "container",
    "settings": {
     "content_width": "boxed",
@@ -222,7 +325,7 @@
    },
    "elements": [
     {
-     "id": "d2d9785",
+     "id": "e2416a6",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -232,7 +335,7 @@
      "elements": []
     },
     {
-     "id": "0d4e01a",
+     "id": "fda7504",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -244,7 +347,7 @@
    "isInner": false
   },
   {
-   "id": "5cc8d1d",
+   "id": "f540112",
    "elType": "container",
    "settings": {
     "content_width": "boxed",
@@ -276,7 +379,7 @@
    },
    "elements": [
     {
-     "id": "91b274c",
+     "id": "c6cc656",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -286,62 +389,11 @@
      "elements": []
     },
     {
-     "id": "e2416a6",
+     "id": "6f54d46",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
       "editor": "<ul><li><strong>Egg:</strong> used in traditional crumbing. Ask about crumb-free options.</li><li><strong>Milk:</strong> present in traditional crumbs, the buttermilk breader, cheese and many sauces.</li><li><strong>Soy:</strong> listed in traditional crumbs and some sauces.</li><li><strong>Sesame:</strong> listed in traditional crumbs and often in burger buns.</li></ul>"
-     },
-     "elements": []
-    }
-   ],
-   "isInner": false
-  },
-  {
-   "id": "9f14977",
-   "elType": "container",
-   "settings": {
-    "content_width": "boxed",
-    "flex_direction": "column",
-    "padding": {
-     "unit": "px",
-     "top": "24",
-     "right": "0",
-     "bottom": "16",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "24",
-     "right": "16",
-     "bottom": "16",
-     "left": "16",
-     "isLinked": false
-    },
-    "boxed_width": {
-     "unit": "px",
-     "size": 1200,
-     "sizes": []
-    }
-   },
-   "elements": [
-    {
-     "id": "f2d69d9",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "Plant-Based and Vegan Options",
-      "header_size": "h2"
-     },
-     "elements": []
-    },
-    {
-     "id": "c6cc656",
-     "elType": "widget",
-     "widgetType": "text-editor",
-     "settings": {
-      "editor": "<p>Schnitz offers a plant-based schnitzel in many burgers and wraps. Plant-based does not always mean vegan or allergen free: crumbs, buns and sauces may contain egg or milk. Check the official chart for the exact combination you want.</p>"
      },
      "elements": []
     }
@@ -374,8 +426,7 @@
      "unit": "px",
      "size": 1200,
      "sizes": []
-    },
-    "_element_id": "faq"
+    }
    },
    "elements": [
     {
@@ -383,7 +434,7 @@
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "Schnitz Allergen FAQ",
+      "title": "Plant-Based and Vegan Options",
       "header_size": "h2"
      },
      "elements": []
@@ -393,12 +444,64 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
+      "editor": "<p>Schnitz offers a plant-based schnitzel in many burgers and wraps. Plant-based does not always mean vegan or allergen free: crumbs, buns and sauces may contain egg or milk. Check the official chart for the exact combination you want.</p>"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "7fcdd23",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    },
+    "_element_id": "faq"
+   },
+   "elements": [
+    {
+     "id": "d125db3",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Schnitz Allergen FAQ",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "efa6dec",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
       "editor": "<p>Quick answers to the questions Australians search most about Schnitz.</p>"
      },
      "elements": []
     },
     {
-     "id": "8651b21",
+     "id": "e1e7375",
      "elType": "widget",
      "widgetType": "shortcode",
      "settings": {
@@ -410,7 +513,48 @@
    "isInner": false
   },
   {
-   "id": "232f5cb",
+   "id": "a9df558",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "10",
+     "right": "0",
+     "bottom": "10",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "10",
+     "right": "16",
+     "bottom": "10",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "9a55086",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_author]"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "d3d0831",
    "elType": "container",
    "settings": {
     "content_width": "boxed",
@@ -439,7 +583,7 @@
    },
    "elements": [
     {
-     "id": "d125db3",
+     "id": "c1df2d0",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -449,7 +593,7 @@
      "elements": []
     },
     {
-     "id": "e1e7375",
+     "id": "3e67027",
      "elType": "widget",
      "widgetType": "shortcode",
      "settings": {

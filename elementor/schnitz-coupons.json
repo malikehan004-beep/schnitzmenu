@@ -7,11 +7,11 @@
  },
  "content": [
   {
-   "id": "c2a7684",
+   "id": "79eca91",
    "elType": "container",
    "settings": {
     "content_width": "boxed",
-    "flex_direction": "column",
+    "flex_direction": "row",
     "padding": {
      "unit": "px",
      "top": "44",
@@ -33,9 +33,19 @@
      "size": 1200,
      "sizes": []
     },
+    "flex_wrap": "wrap",
+    "flex_direction_mobile": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 28,
+     "column": "28",
+     "row": "28",
+     "isLinked": true
+    },
+    "flex_align_items": "center",
     "css_classes": "sm-hero",
     "background_background": "classic",
-    "background_color": "#D4471A",
+    "background_color": "#C74214",
     "min_height": {
      "unit": "px",
      "size": 220,
@@ -45,60 +55,144 @@
    },
    "elements": [
     {
-     "id": "6300644",
-     "elType": "widget",
-     "widgetType": "text-editor",
+     "id": "bd6faa2",
+     "elType": "container",
      "settings": {
-      "editor": "<p>[sm_updated]</p>",
-      "_css_classes": "sm-hero-badge"
-     },
-     "elements": []
-    },
-    {
-     "id": "9c3c683",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "Schnitz Deals &amp; Coupons 2026 &#8211; Bundles and Specials",
-      "header_size": "h1",
-      "title_color": "#FFFFFF",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "700",
-      "typography_font_size": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "padding": {
        "unit": "px",
-       "size": 40,
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "16",
+       "bottom": "0",
+       "left": "16",
+       "isLinked": false
+      },
+      "width": {
+       "unit": "%",
+       "size": 55,
        "sizes": []
       },
-      "typography_font_size_mobile": {
-       "unit": "px",
-       "size": 27,
+      "width_mobile": {
+       "unit": "%",
+       "size": 100,
        "sizes": []
       }
      },
-     "elements": []
+     "elements": [
+      {
+       "id": "6300644",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<p>[sm_updated]</p>",
+        "_css_classes": "sm-hero-badge"
+       },
+       "elements": []
+      },
+      {
+       "id": "9c3c683",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Schnitz Deals &amp; Coupons 2026 &#8211; Bundles and Specials",
+        "header_size": "h1",
+        "title_color": "#FFFFFF",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "700",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 36,
+         "sizes": []
+        },
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 24,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "603501c",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<p>The latest Schnitz meal deals, family bundles and limited-time specials we have seen in Australia.</p>",
+        "text_color": "#FFDDD0",
+        "typography_typography": "custom",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 18,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": true
     },
     {
-     "id": "603501c",
-     "elType": "widget",
-     "widgetType": "text-editor",
+     "id": "89e51f8",
+     "elType": "container",
      "settings": {
-      "editor": "<p>The latest Schnitz meal deals, family bundles and limited-time specials we have seen in Australia.</p>",
-      "text_color": "#FFDDD0",
-      "typography_typography": "custom",
-      "typography_font_size": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "padding": {
        "unit": "px",
-       "size": 18,
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "16",
+       "bottom": "0",
+       "left": "16",
+       "isLinked": false
+      },
+      "css_classes": "sm-hero-media",
+      "width": {
+       "unit": "%",
+       "size": 41,
+       "sizes": []
+      },
+      "width_mobile": {
+       "unit": "%",
+       "size": 100,
        "sizes": []
       }
      },
-     "elements": []
+     "elements": [
+      {
+       "id": "08ffdcf",
+       "elType": "widget",
+       "widgetType": "shortcode",
+       "settings": {
+        "shortcode": "[sm_image name='cat-chips-dips' eager='yes' sizes='(max-width: 767px) 92vw, 460px' class='sm-hero-img']"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": true
     }
    ],
    "isInner": false
   },
   {
-   "id": "89e51f8",
+   "id": "38e6631",
    "elType": "container",
    "settings": {
     "content_width": "boxed",
@@ -127,7 +221,16 @@
    },
    "elements": [
     {
-     "id": "a4287bf",
+     "id": "bc089fe",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_breadcrumbs]"
+     },
+     "elements": []
+    },
+    {
+     "id": "9d3d8a6",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -139,7 +242,7 @@
    "isInner": false
   },
   {
-   "id": "d12ba49",
+   "id": "4c71423",
    "elType": "container",
    "settings": {
     "content_width": "boxed",
@@ -171,7 +274,7 @@
    },
    "elements": [
     {
-     "id": "bc089fe",
+     "id": "3a62057",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -181,7 +284,7 @@
      "elements": []
     },
     {
-     "id": "9de5e99",
+     "id": "5242fef",
      "elType": "widget",
      "widgetType": "shortcode",
      "settings": {
@@ -193,58 +296,7 @@
    "isInner": false
   },
   {
-   "id": "48f851a",
-   "elType": "container",
-   "settings": {
-    "content_width": "boxed",
-    "flex_direction": "column",
-    "padding": {
-     "unit": "px",
-     "top": "24",
-     "right": "0",
-     "bottom": "16",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "24",
-     "right": "16",
-     "bottom": "16",
-     "left": "16",
-     "isLinked": false
-    },
-    "boxed_width": {
-     "unit": "px",
-     "size": 1200,
-     "sizes": []
-    }
-   },
-   "elements": [
-    {
-     "id": "e190dce",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "How to Save Money at Schnitz",
-      "header_size": "h2"
-     },
-     "elements": []
-    },
-    {
-     "id": "5242fef",
-     "elType": "widget",
-     "widgetType": "text-editor",
-     "settings": {
-      "editor": "<ul><li><strong>Order pickup, not delivery.</strong> Delivery app prices are often higher.</li><li><strong>Use the official app.</strong> App-only deals and specials appear there first.</li><li><strong>Buy a bundle.</strong> Family and race-day bundles cost less than ordering items separately.</li><li><strong>Watch for one-day specials.</strong> Schnitz has run $5 schnitzel days in the past.</li></ul>"
-     },
-     "elements": []
-    }
-   ],
-   "isInner": false
-  },
-  {
-   "id": "cef859c",
+   "id": "ea18a60",
    "elType": "container",
    "settings": {
     "content_width": "boxed",
@@ -277,13 +329,105 @@
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
+      "title": "How to Save Money at Schnitz",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "1237b99",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<ul><li><strong>Order pickup, not delivery.</strong> Delivery app prices are often higher.</li><li><strong>Use the official app.</strong> App-only deals and specials appear there first.</li><li><strong>Buy a bundle.</strong> Family and race-day bundles cost less than ordering items separately.</li><li><strong>Watch for one-day specials.</strong> Schnitz has run $5 schnitzel days in the past.</li></ul>"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "35733c3",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "10",
+     "right": "0",
+     "bottom": "10",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "10",
+     "right": "16",
+     "bottom": "10",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "6667238",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_author]"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "48ddef5",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "1ea8763",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
       "title": "Related Schnitz Guides",
       "header_size": "h2"
      },
      "elements": []
     },
     {
-     "id": "8e8ff27",
+     "id": "489148c",
      "elType": "widget",
      "widgetType": "shortcode",
      "settings": {

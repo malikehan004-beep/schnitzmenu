@@ -7,11 +7,11 @@
  },
  "content": [
   {
-   "id": "7cf4344",
+   "id": "75231ce",
    "elType": "container",
    "settings": {
     "content_width": "boxed",
-    "flex_direction": "column",
+    "flex_direction": "row",
     "padding": {
      "unit": "px",
      "top": "44",
@@ -33,9 +33,19 @@
      "size": 1200,
      "sizes": []
     },
+    "flex_wrap": "wrap",
+    "flex_direction_mobile": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 28,
+     "column": "28",
+     "row": "28",
+     "isLinked": true
+    },
+    "flex_align_items": "center",
     "css_classes": "sm-hero",
     "background_background": "classic",
-    "background_color": "#D4471A",
+    "background_color": "#C74214",
     "min_height": {
      "unit": "px",
      "size": 220,
@@ -45,60 +55,144 @@
    },
    "elements": [
     {
-     "id": "96db685",
-     "elType": "widget",
-     "widgetType": "text-editor",
+     "id": "d9fc1ed",
+     "elType": "container",
      "settings": {
-      "editor": "<p>[sm_updated]</p>",
-      "_css_classes": "sm-hero-badge"
-     },
-     "elements": []
-    },
-    {
-     "id": "1f54762",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "Schnitz Menu Prices 2026 &#8211; Full Price List (Australia)",
-      "header_size": "h1",
-      "title_color": "#FFFFFF",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "700",
-      "typography_font_size": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "padding": {
        "unit": "px",
-       "size": 40,
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "16",
+       "bottom": "0",
+       "left": "16",
+       "isLinked": false
+      },
+      "width": {
+       "unit": "%",
+       "size": 55,
        "sizes": []
       },
-      "typography_font_size_mobile": {
-       "unit": "px",
-       "size": 27,
+      "width_mobile": {
+       "unit": "%",
+       "size": 100,
        "sizes": []
       }
      },
-     "elements": []
+     "elements": [
+      {
+       "id": "96db685",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<p>[sm_updated]</p>",
+        "_css_classes": "sm-hero-badge"
+       },
+       "elements": []
+      },
+      {
+       "id": "1f54762",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Schnitz Menu Prices 2026 &#8211; Full Price List (Australia)",
+        "header_size": "h1",
+        "title_color": "#FFFFFF",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "700",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 36,
+         "sizes": []
+        },
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 24,
+         "sizes": []
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "c9f55ce",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<p>Approximate Australian prices for every Schnitz wrap, burger, plate, tender, kids meal and side. Sort by price, search the list and build a meal to see your total.</p>",
+        "text_color": "#FFDDD0",
+        "typography_typography": "custom",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 18,
+         "sizes": []
+        }
+       },
+       "elements": []
+      }
+     ],
+     "isInner": true
     },
     {
-     "id": "c9f55ce",
-     "elType": "widget",
-     "widgetType": "text-editor",
+     "id": "e07f694",
+     "elType": "container",
      "settings": {
-      "editor": "<p>Approximate Australian prices for every Schnitz wrap, burger, plate, tender, kids meal and side. Sort by price, search the list and build a meal to see your total.</p>",
-      "text_color": "#FFDDD0",
-      "typography_typography": "custom",
-      "typography_font_size": {
+      "content_width": "full",
+      "flex_direction": "column",
+      "padding": {
        "unit": "px",
-       "size": 18,
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "0",
+       "right": "16",
+       "bottom": "0",
+       "left": "16",
+       "isLinked": false
+      },
+      "css_classes": "sm-hero-media",
+      "width": {
+       "unit": "%",
+       "size": 41,
+       "sizes": []
+      },
+      "width_mobile": {
+       "unit": "%",
+       "size": 100,
        "sizes": []
       }
      },
-     "elements": []
+     "elements": [
+      {
+       "id": "2f98d0c",
+       "elType": "widget",
+       "widgetType": "shortcode",
+       "settings": {
+        "shortcode": "[sm_image name='cat-wraps-burgers' eager='yes' sizes='(max-width: 767px) 92vw, 460px' class='sm-hero-img']"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": true
     }
    ],
    "isInner": false
   },
   {
-   "id": "a39a83a",
+   "id": "145094f",
    "elType": "container",
    "settings": {
     "content_width": "boxed",
@@ -127,7 +221,16 @@
    },
    "elements": [
     {
-     "id": "c4bab1e",
+     "id": "71b460b",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_breadcrumbs]"
+     },
+     "elements": []
+    },
+    {
+     "id": "a66420c",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -136,7 +239,16 @@
      "elements": []
     },
     {
-     "id": "40c25b1",
+     "id": "b87d488",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_price_stats]"
+     },
+     "elements": []
+    },
+    {
+     "id": "07a4ad8",
      "elType": "widget",
      "widgetType": "shortcode",
      "settings": {
@@ -145,7 +257,7 @@
      "elements": []
     },
     {
-     "id": "2ff857e",
+     "id": "d181f58",
      "elType": "container",
      "settings": {
       "content_width": "boxed",
@@ -181,7 +293,7 @@
      },
      "elements": [
       {
-       "id": "e58787a",
+       "id": "901a59d",
        "elType": "widget",
        "widgetType": "shortcode",
        "settings": {
@@ -190,7 +302,7 @@
        "elements": []
       },
       {
-       "id": "71b460b",
+       "id": "5693079",
        "elType": "widget",
        "widgetType": "shortcode",
        "settings": {
@@ -205,7 +317,7 @@
    "isInner": false
   },
   {
-   "id": "64dc4e2",
+   "id": "8c872ef",
    "elType": "container",
    "settings": {
     "content_width": "boxed",
@@ -234,7 +346,7 @@
    },
    "elements": [
     {
-     "id": "901a59d",
+     "id": "fae35a0",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -244,11 +356,11 @@
      "elements": []
     },
     {
-     "id": "07a4ad8",
+     "id": "4872d40",
      "elType": "widget",
      "widgetType": "shortcode",
      "settings": {
-      "shortcode": "[sm_price_table cat='wraps-burgers' intro='no']"
+      "shortcode": "[sm_price_table cat='wraps-burgers' intro='no' image='no']"
      },
      "elements": []
     }
@@ -256,7 +368,7 @@
    "isInner": false
   },
   {
-   "id": "cc0618c",
+   "id": "f092756",
    "elType": "container",
    "settings": {
     "content_width": "boxed",
@@ -285,7 +397,7 @@
    },
    "elements": [
     {
-     "id": "15eebd8",
+     "id": "12003ca",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -295,11 +407,11 @@
      "elements": []
     },
     {
-     "id": "1c1dd32",
+     "id": "64b631d",
      "elType": "widget",
      "widgetType": "shortcode",
      "settings": {
-      "shortcode": "[sm_price_table cat='plates' intro='no']"
+      "shortcode": "[sm_price_table cat='plates' intro='no' image='no']"
      },
      "elements": []
     }
@@ -307,7 +419,7 @@
    "isInner": false
   },
   {
-   "id": "78e731d",
+   "id": "fbe8761",
    "elType": "container",
    "settings": {
     "content_width": "boxed",
@@ -336,7 +448,7 @@
    },
    "elements": [
     {
-     "id": "9d12350",
+     "id": "93f589d",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -346,11 +458,11 @@
      "elements": []
     },
     {
-     "id": "fae35a0",
+     "id": "5794beb",
      "elType": "widget",
      "widgetType": "shortcode",
      "settings": {
-      "shortcode": "[sm_price_table cat='tenders-schnacks' intro='no']"
+      "shortcode": "[sm_price_table cat='tenders-schnacks' intro='no' image='no']"
      },
      "elements": []
     }
@@ -358,7 +470,7 @@
    "isInner": false
   },
   {
-   "id": "5e6cf5f",
+   "id": "c9679b8",
    "elType": "container",
    "settings": {
     "content_width": "boxed",
@@ -387,7 +499,7 @@
    },
    "elements": [
     {
-     "id": "aafde65",
+     "id": "5538c12",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -397,11 +509,11 @@
      "elements": []
     },
     {
-     "id": "12003ca",
+     "id": "030025d",
      "elType": "widget",
      "widgetType": "shortcode",
      "settings": {
-      "shortcode": "[sm_price_table cat='salads' intro='no']"
+      "shortcode": "[sm_price_table cat='salads' intro='no' image='no']"
      },
      "elements": []
     }
@@ -409,7 +521,7 @@
    "isInner": false
   },
   {
-   "id": "181620a",
+   "id": "e7fa947",
    "elType": "container",
    "settings": {
     "content_width": "boxed",
@@ -438,7 +550,7 @@
    },
    "elements": [
     {
-     "id": "122ea1c",
+     "id": "74535b0",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -448,11 +560,11 @@
      "elements": []
     },
     {
-     "id": "93f589d",
+     "id": "c6dc294",
      "elType": "widget",
      "widgetType": "shortcode",
      "settings": {
-      "shortcode": "[sm_price_table cat='kids' intro='no']"
+      "shortcode": "[sm_price_table cat='kids' intro='no' image='no']"
      },
      "elements": []
     }
@@ -460,7 +572,7 @@
    "isInner": false
   },
   {
-   "id": "9b26d41",
+   "id": "00fbbea",
    "elType": "container",
    "settings": {
     "content_width": "boxed",
@@ -489,7 +601,7 @@
    },
    "elements": [
     {
-     "id": "efc673a",
+     "id": "484e463",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -499,11 +611,11 @@
      "elements": []
     },
     {
-     "id": "5538c12",
+     "id": "5a9e37c",
      "elType": "widget",
      "widgetType": "shortcode",
      "settings": {
-      "shortcode": "[sm_price_table cat='chips-dips' intro='no']"
+      "shortcode": "[sm_price_table cat='chips-dips' intro='no' image='no']"
      },
      "elements": []
     }
@@ -511,112 +623,7 @@
    "isInner": false
   },
   {
-   "id": "e22c8fa",
-   "elType": "container",
-   "settings": {
-    "content_width": "boxed",
-    "flex_direction": "column",
-    "padding": {
-     "unit": "px",
-     "top": "24",
-     "right": "0",
-     "bottom": "16",
-     "left": "0",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "24",
-     "right": "16",
-     "bottom": "16",
-     "left": "16",
-     "isLinked": false
-    },
-    "boxed_width": {
-     "unit": "px",
-     "size": 1200,
-     "sizes": []
-    }
-   },
-   "elements": [
-    {
-     "id": "bf2b7be",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "Schnitz Drinks Prices",
-      "header_size": "h2"
-     },
-     "elements": []
-    },
-    {
-     "id": "74535b0",
-     "elType": "widget",
-     "widgetType": "shortcode",
-     "settings": {
-      "shortcode": "[sm_price_table cat='drinks' intro='no']"
-     },
-     "elements": []
-    }
-   ],
-   "isInner": false
-  },
-  {
-   "id": "d9bb3fe",
-   "elType": "container",
-   "settings": {
-    "content_width": "boxed",
-    "flex_direction": "column",
-    "padding": {
-     "unit": "px",
-     "top": "30",
-     "right": "24",
-     "bottom": "30",
-     "left": "24",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "28",
-     "right": "16",
-     "bottom": "28",
-     "left": "16",
-     "isLinked": false
-    },
-    "boxed_width": {
-     "unit": "px",
-     "size": 1200,
-     "sizes": []
-    },
-    "css_classes": "sm-band",
-    "background_background": "classic",
-    "background_color": "#FFF3EE"
-   },
-   "elements": [
-    {
-     "id": "484e463",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "Why Schnitz Prices Differ Between Stores",
-      "header_size": "h2"
-     },
-     "elements": []
-    },
-    {
-     "id": "3eba01d",
-     "elType": "widget",
-     "widgetType": "text-editor",
-     "settings": {
-      "editor": "<ul><li><strong>Location.</strong> Airport, stadium and CBD stores often charge more to cover higher rent.</li><li><strong>Pickup vs delivery.</strong> Delivery menus are commonly 15&#8211;30% higher than in-store prices.</li><li><strong>State.</strong> Wages and supply costs vary between states, so do prices.</li><li><strong>Deals.</strong> App-only and limited-time bundles can be much cheaper than ordering items separately.</li></ul><p>Tip: if you are feeding a family, compare the bundle price against ordering items one by one using the meal builder on this page.</p>"
-     },
-     "elements": []
-    }
-   ],
-   "isInner": false
-  },
-  {
-   "id": "ebdb146",
+   "id": "521eab5",
    "elType": "container",
    "settings": {
     "content_width": "boxed",
@@ -649,13 +656,118 @@
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
+      "title": "Schnitz Drinks Prices",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "b17bccc",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_price_table cat='drinks' intro='no' image='no']"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "b5930d6",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "30",
+     "right": "24",
+     "bottom": "30",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "28",
+     "right": "16",
+     "bottom": "28",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    },
+    "css_classes": "sm-band",
+    "background_background": "classic",
+    "background_color": "#FFF3EE"
+   },
+   "elements": [
+    {
+     "id": "2c5beb2",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Why Schnitz Prices Differ Between Stores",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "d0c16c3",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<ul><li><strong>Location.</strong> Airport, stadium and CBD stores often charge more to cover higher rent.</li><li><strong>Pickup vs delivery.</strong> Delivery menus are commonly 15&#8211;30% higher than in-store prices.</li><li><strong>State.</strong> Wages and supply costs vary between states, so do prices.</li><li><strong>Deals.</strong> App-only and limited-time bundles can be much cheaper than ordering items separately.</li></ul><p>Tip: if you are feeding a family, compare the bundle price against ordering items one by one using the meal builder on this page.</p>"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "def1a64",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "b68cb54",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
       "title": "Cheapest Items on the Schnitz Menu",
       "header_size": "h2"
      },
      "elements": []
     },
     {
-     "id": "f96cb94",
+     "id": "364286e",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -667,7 +779,7 @@
    "isInner": false
   },
   {
-   "id": "1b429eb",
+   "id": "5de6920",
    "elType": "container",
    "settings": {
     "content_width": "boxed",
@@ -697,7 +809,7 @@
    },
    "elements": [
     {
-     "id": "ed0ab50",
+     "id": "f04861c",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -707,7 +819,7 @@
      "elements": []
     },
     {
-     "id": "b68cb54",
+     "id": "5c825d3",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -716,7 +828,7 @@
      "elements": []
     },
     {
-     "id": "d0c16c3",
+     "id": "93a81f0",
      "elType": "widget",
      "widgetType": "shortcode",
      "settings": {
@@ -728,7 +840,48 @@
    "isInner": false
   },
   {
-   "id": "7a57c12",
+   "id": "fb703d8",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "10",
+     "right": "0",
+     "bottom": "10",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "10",
+     "right": "16",
+     "bottom": "10",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "e9f1cce",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_author]"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "9b4421c",
    "elType": "container",
    "settings": {
     "content_width": "boxed",
@@ -757,7 +910,7 @@
    },
    "elements": [
     {
-     "id": "93a81f0",
+     "id": "7c23b60",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -767,7 +920,7 @@
      "elements": []
     },
     {
-     "id": "994abc5",
+     "id": "ed25d1e",
      "elType": "widget",
      "widgetType": "shortcode",
      "settings": {

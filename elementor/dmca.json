@@ -35,7 +35,7 @@
     },
     "css_classes": "sm-hero",
     "background_background": "classic",
-    "background_color": "#D4471A",
+    "background_color": "#C74214",
     "min_height": {
      "unit": "px",
      "size": 180,

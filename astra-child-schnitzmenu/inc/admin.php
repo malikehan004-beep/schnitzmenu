@@ -102,6 +102,17 @@ function sm_admin_page() {
 			</table>
 			<?php submit_button(); ?>
 		</form>
+
+		<h2>Images</h2>
+		<?php if ( isset( $_GET['sm_media_added'] ) ) : // phpcs:ignore WordPress.Security.NonceVerification.Recommended ?>
+			<div class="notice notice-success"><p><?php echo esc_html( sprintf( '%d illustration(s) added to the Media Library.', absint( $_GET['sm_media_added'] ) ) ); // phpcs:ignore WordPress.Security.NonceVerification.Recommended ?></p></div>
+		<?php endif; ?>
+		<p>The theme ships original illustrations (WebP, 3-21 KB each). Copy them into the Media Library to use them in any Elementor Image widget - alt text is filled in for you. Already-copied images are skipped.</p>
+		<form method="post" action="<?php echo esc_url( admin_url( 'admin-post.php' ) ); ?>">
+			<input type="hidden" name="action" value="sm_import_media">
+			<?php wp_nonce_field( 'sm_import_media' ); ?>
+			<?php submit_button( 'Add illustrations to Media Library', 'secondary', 'submit', false ); ?>
+		</form>
 	</div>
 	<?php
 }

@@ -17,6 +17,11 @@
  *   [sm_menu_schema]                      Menu JSON-LD for Google
  *   [sm_print]                            "Print this menu" button
  *   [sm_disclaimer]                       unofficial-site disclaimer
+ *   [sm_image name='cat-plates']          responsive illustration (see inc/images.php)
+ *   [sm_category_grid]                    picture cards for every menu category
+ *   [sm_price_stats]                      cheapest / average / priciest tiles
+ *   [sm_author]                           "checked by" trust box with sources
+ *   [sm_breadcrumbs]                      breadcrumb trail (uses Rank Math when active)
  *
  * @package schnitzmenu
  */
@@ -114,12 +119,21 @@ add_shortcode( 'sm_price_table', function ( $atts ) {
 		'cat'     => '',
 		'builder' => 'yes',
 		'intro'   => 'yes',
+		'image'   => 'yes',
 	), $atts );
 
 	$out = '';
 	foreach ( sm_categories( $atts['cat'] ) as $cat ) {
 		$out .= '<div class="sm-table-block" id="sm-cat-' . esc_attr( $cat['slug'] ) . '">';
-		if ( 'yes' === $atts['intro'] && ! empty( $cat['intro'] ) ) {
+		$has_intro = 'yes' === $atts['intro'] && ! empty( $cat['intro'] );
+		if ( 'yes' === $atts['image'] && function_exists( 'sm_image_html' ) ) {
+			$out .= '<div class="sm-cat-head">' . sm_image_html( sm_category_image( $cat['slug'] ), array(
+				'alt'   => 'Schnitz ' . $cat['name'] . ' - illustration',
+				'sizes' => '(max-width: 640px) 100vw, 220px',
+			) );
+			$out .= $has_intro ? '<p class="sm-table-intro">' . esc_html( $cat['intro'] ) . '</p>' : '';
+			$out .= '</div>';
+		} elseif ( $has_intro ) {
 			$out .= '<p class="sm-table-intro">' . esc_html( $cat['intro'] ) . '</p>';
 		}
 		$out .= '<div class="sm-table-scroll"><table class="sm-table" data-sm-sortable>';
@@ -386,3 +400,56 @@ function sm_disclaimer_html() {
 	return '<p class="sm-disclaimer"><strong>Disclaimer:</strong> SchnitzMenu.com is an unofficial, independent guide. We are not affiliated with, endorsed by, or sponsored by Schnitz International Pty Ltd. All prices are approximate, may vary by location and date, and are shown for information only. Always confirm current prices and allergen information directly with your local Schnitz restaurant.</p>';
 }
 add_shortcode( 'sm_disclaimer', 'sm_disclaimer_html' );
+
+/* ---------------------------------------------------------------------------
+ * Price stats, author box, breadcrumbs
+ * ------------------------------------------------------------------------- */
+
+add_shortcode( 'sm_price_stats', function () {
+	// Skip delivery-only prices so the tiles compare like with like.
+	$priced = array_values( array_filter( sm_all_items(), function ( $i ) {
+		return is_numeric( $i['price'] ) && false === stripos( $i['desc'], 'delivery' );
+	} ) );
+	if ( ! $priced ) {
+		return '';
+	}
+	usort( $priced, function ( $a, $b ) {
+		return $a['price'] <=> $b['price'];
+	} );
+	$cheapest = $priced[0];
+	$priciest = end( $priced );
+	$wraps    = array_filter( wp_list_pluck( sm_categories( 'wraps-burgers' )[0]['items'] ?? array(), 'price' ), 'is_numeric' );
+	$plates   = array_filter( wp_list_pluck( sm_categories( 'plates' )[0]['items'] ?? array(), 'price' ), 'is_numeric' );
+
+	$tiles = array(
+		array( 'Cheapest item', '$' . number_format( $cheapest['price'], 2 ), $cheapest['name'] ),
+		array( 'Average wrap / burger', $wraps ? '$' . number_format( array_sum( $wraps ) / count( $wraps ), 2 ) : '-', count( $wraps ) . ' items priced' ),
+		array( 'Average plate', $plates ? '$' . number_format( array_sum( $plates ) / count( $plates ), 2 ) : '-', 'with chips' ),
+		array( 'Most expensive', '$' . number_format( $priciest['price'], 2 ), $priciest['name'] ),
+	);
+	$out = '<div class="sm-stats">';
+	foreach ( $tiles as $t ) {
+		$out .= '<div class="sm-stat"><span class="sm-stat__label">' . esc_html( $t[0] ) . '</span><strong class="sm-stat__value">' . esc_html( $t[1] ) . '</strong>'
+			. '<span class="sm-stat__note">' . esc_html( $t[2] ) . '</span></div>';
+	}
+	return $out . '</div><p class="sm-small">All figures approximate (AUD, pickup), based on prices listed in this guide.</p>';
+} );
+
+add_shortcode( 'sm_author', function () {
+	return '<aside class="sm-author">'
+		. '<img src="' . esc_url( SM_URI . '/assets/img/site-icon-512.png' ) . '" width="64" height="64" alt="" loading="lazy" decoding="async">'
+		. '<div><strong>Checked by the SchnitzMenu team</strong>'
+		. '<p>Prices and items reviewed ' . esc_html( sm_updated_label() ) . ' using store listings, delivery apps and official Schnitz pages. '
+		. 'Spotted a change? <a href="' . esc_url( home_url( '/contact/' ) ) . '">Tell us</a> and we will update it.</p></div></aside>';
+} );
+
+add_shortcode( 'sm_breadcrumbs', function () {
+	if ( function_exists( 'rank_math_get_breadcrumbs' ) ) {
+		return '<div class="sm-crumbs">' . rank_math_get_breadcrumbs() . '</div>';
+	}
+	if ( is_front_page() ) {
+		return '';
+	}
+	return '<nav class="sm-crumbs" aria-label="Breadcrumb"><a href="' . esc_url( home_url( '/' ) ) . '">Home</a>'
+		. '<span aria-hidden="true"> &rsaquo; </span><span aria-current="page">' . esc_html( get_the_title() ) . '</span></nav>';
+} );

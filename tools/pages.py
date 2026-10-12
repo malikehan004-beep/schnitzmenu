@@ -13,17 +13,24 @@ UPDATED = "[sm_updated]"
 # Reusable blocks
 # ---------------------------------------------------------------------------
 
-def hero(h1, intro, buttons=(), min_height=220):
+def hero(h1, intro, buttons=(), min_height=220, image=None, alt=""):
     kids = [
         text(f"<p>{UPDATED}</p>", classes="sm-hero-badge"),
-        heading(h1, "h1", color="#FFFFFF", size=40),
+        heading(h1, "h1", color="#FFFFFF", size=40 if not image else 36),
         text(f"<p>{intro}</p>", color="#FFDDD0", size=18),
     ]
     if buttons:
         row = [button(label, url, bg="#FFFFFF", fg=BRAND) if i == 0 else
                button(label, url, bg=NAVY, fg="#FFFFFF") for i, (label, url) in enumerate(buttons)]
         kids.append(container(row, inner=True, direction="row", gap=12, pad=(6, 0, 0, 0)))
-    return container(kids, classes="sm-hero", bg=BRAND, pad=(44, 40, 44, 40), min_height=min_height)
+    if not image:
+        return container(kids, classes="sm-hero", bg=BRAND, pad=(44, 40, 44, 40), min_height=min_height)
+    alt_attr = f" alt='{alt}'" if alt else ""
+    media = shortcode(f"[sm_image name='{image}' eager='yes' sizes='(max-width: 767px) 92vw, 460px' class='sm-hero-img'{alt_attr}]")
+    return container([
+        container(kids, inner=True, width=55, pad=(0, 0, 0, 0)),
+        container([media], inner=True, width=41, pad=(0, 0, 0, 0), classes="sm-hero-media"),
+    ], classes="sm-hero", bg=BRAND, pad=(44, 40, 44, 40), min_height=min_height, direction="row", gap=28, align="center")
 
 
 def section(h2, body_html="", *extra, element_id="", tint=False, tag="h2"):
@@ -62,20 +69,6 @@ def order_strip():
 # Home
 # ---------------------------------------------------------------------------
 
-PLATE_SVG = (
-    "<div class='sm-plate'><svg viewBox='0 0 360 360' role='img' aria-label='Illustration of a crumbed schnitzel with chips and lemon'>"
-    "<circle cx='180' cy='180' r='170' fill='#FFF3EE'/><circle cx='180' cy='180' r='140' fill='#FFFFFF' stroke='#ECDCD4' stroke-width='4'/>"
-    "<path d='M95 175c0-45 50-75 105-70 50 4 78 34 70 70-8 40-55 62-105 58-45-4-70-25-70-58z' fill='#E39B3B'/>"
-    "<path d='M110 172c4-34 44-56 88-52 40 4 62 26 57 54-6 30-44 47-84 44-38-3-64-19-61-46z' fill='#F0B04F'/>"
-    "<g fill='#C9781F'><circle cx='150' cy='150' r='4'/><circle cx='185' cy='140' r='3'/><circle cx='215' cy='160' r='4'/>"
-    "<circle cx='170' cy='185' r='3'/><circle cx='205' cy='195' r='4'/><circle cx='140' cy='190' r='3'/><circle cx='235' cy='185' r='3'/></g>"
-    "<g fill='#F7D154' stroke='#E0B33A' stroke-width='2'><rect x='105' y='238' width='14' height='62' rx='4' transform='rotate(-18 112 269)'/>"
-    "<rect x='128' y='242' width='14' height='62' rx='4' transform='rotate(-6 135 273)'/><rect x='150' y='244' width='14' height='60' rx='4' transform='rotate(8 157 274)'/>"
-    "<rect x='172' y='240' width='14' height='62' rx='4' transform='rotate(18 179 271)'/></g>"
-    "<circle cx='262' cy='240' r='26' fill='#F7E15A' stroke='#D9BF2E' stroke-width='3'/><path d='M262 216v48M238 240h48M245 223l34 34M279 223l-34 34' stroke='#D9BF2E' stroke-width='2'/>"
-    "<path d='M240 100c10-18 30-22 40-12' stroke='#5CA35C' stroke-width='6' fill='none' stroke-linecap='round'/></svg></div>"
-)
-
 ICONS = {
     "menu": "<path d='M4 4h16v16H4z'/><path d='M8 8h8M8 12h8M8 16h5'/>",
     "tag": "<path d='M3 12V3h9l9 9-9 9z'/><circle cx='7.5' cy='7.5' r='1.5'/>",
@@ -101,7 +94,7 @@ def home():
              "The complete unofficial Schnitz menu guide for Australia. Prices, calories, allergen information "
              "and the best deals &#8211; checked and updated every month.",
              buttons=(("View the Full Menu", "/schnitz-menu/"), ("See 2026 Prices", "/schnitz-menu-prices/")),
-             min_height=400),
+             min_height=420, image="hero-schnitzel-plate"),
         container([
             heading("Find what you need in one tap", "h2", align="center"),
             container([
@@ -112,10 +105,19 @@ def home():
             ], inner=True, direction="row", gap=20, pad=(10, 0, 0, 0)),
         ], classes="sm-band-grey", bg=GREY, pad=(48, 24, 48, 24)),
         container([
+            heading("Browse the Schnitz Menu by Category", "h2"),
+            text("<p>Pick a category to jump straight to its prices and calories.</p>"),
+            shortcode("[sm_category_grid]"),
+        ], pad=(44, 24, 10, 24)),
+        container([
+            heading("Schnitz Prices at a Glance", "h2"),
+            shortcode("[sm_price_stats]"),
+        ], pad=(24, 24, 10, 24)),
+        container([
             heading("Popular Schnitz Plates &amp; Prices", "h2"),
             text("<p>Here are the classic plates most people order. Tap <strong>+</strong> to add items to your meal and "
                  "see the total price and calories.</p>"),
-            shortcode("[sm_price_table cat='plates' intro='no']"),
+            shortcode("[sm_price_table cat='plates' intro='no' image='no']"),
             button("See every price", "/schnitz-menu-prices/"),
         ], pad=(44, 24, 20, 24)),
         container([
@@ -133,7 +135,7 @@ def home():
                     "listings and delivery apps, mark every price as approximate, and refresh the data every month.</p>"),
                 button("Read the full menu guide", "/schnitz-menu/"),
             ], inner=True, width=58, pad=(0, 0, 0, 0)),
-            container([html(PLATE_SVG)], inner=True, width=38, pad=(0, 0, 0, 0)),
+            container([shortcode("[sm_image name='cat-plates' sizes='(max-width: 767px) 100vw, 440px']")], inner=True, width=38, pad=(0, 0, 0, 0)),
         ], direction="row", gap=32, align="center", pad=(40, 24, 40, 24)),
         container([
             heading("Latest Schnitz Deals", "h2"),
@@ -167,8 +169,9 @@ def schnitz_menu():
     return [
         hero("Schnitz Menu 2026 &#8211; Full Menu with Prices &amp; Calories (Australia)",
              "Every item on the Schnitz menu in one place: wraps and burgers, schnitzel plates, salads, tenders, "
-             "kids meals, chips and drinks. Updated monthly. Unofficial guide &#8211; not affiliated with Schnitz International."),
+             "kids meals, chips and drinks. Updated monthly. Unofficial guide &#8211; not affiliated with Schnitz International.", image="hero-schnitzel-plate"),
         container([
+            shortcode("[sm_breadcrumbs]"),
             text(
                 "<p>Looking at the Schnitz menu for the first time can be a little overwhelming. You pick a protein, a "
                 "crumb or flavour, then decide whether you want it in a burger, a wrap, on a plate or on a salad. This "
@@ -222,6 +225,7 @@ def schnitz_menu():
         section("Schnitz Value Deals &amp; Bundles", "", shortcode("[sm_deals]"),
                 button("All deals and coupons", "/schnitz-coupons/")),
         faq("Schnitz Menu FAQ"),
+        container([shortcode("[sm_author]")], pad=(10, 0, 10, 0)),
         related("More Schnitz Guides", "schnitz-menu-prices,schnitz-calories,schnitz-allergen-menu,schnitz-kids-menu,schnitz-coupons"),
         container([shortcode("[sm_menu_schema]")], pad=(0, 0, 0, 0)),
     ]
@@ -235,8 +239,9 @@ def prices():
     return [
         hero("Schnitz Menu Prices 2026 &#8211; Full Price List (Australia)",
              "Approximate Australian prices for every Schnitz wrap, burger, plate, tender, kids meal and side. "
-             "Sort by price, search the list and build a meal to see your total."),
+             "Sort by price, search the list and build a meal to see your total.", image="cat-wraps-burgers"),
         container([
+            shortcode("[sm_breadcrumbs]"),
             text(
                 "<p>How much does Schnitz cost? In most Australian stores a schnitzel wrap or burger sits between about "
                 "<strong>$14 and $17 (approx.)</strong>, while a schnitzel plate with chips costs roughly <strong>$19.50 "
@@ -245,16 +250,17 @@ def prices():
                 "<p>The prices below are typical pickup prices collected from public sources and store listings. They "
                 "change between states and stores, and delivery apps such as Uber Eats and DoorDash usually add a "
                 "mark-up. Where we could not confirm a price, the table says <em>Varies</em> rather than guessing.</p>"),
+            shortcode("[sm_price_stats]"),
             shortcode("[sm_jump_nav]"),
             toolbar(),
         ], pad=(24, 0, 0, 0)),
-        section("Schnitz Wraps &amp; Burgers Prices", "", shortcode("[sm_price_table cat='wraps-burgers' intro='no']")),
-        section("Schnitz Plates Prices", "", shortcode("[sm_price_table cat='plates' intro='no']")),
-        section("Schnitz Tenders &amp; Schnacks Prices", "", shortcode("[sm_price_table cat='tenders-schnacks' intro='no']")),
-        section("Schnitz Salads Prices", "", shortcode("[sm_price_table cat='salads' intro='no']")),
-        section("Schnitz Kids Menu Prices", "", shortcode("[sm_price_table cat='kids' intro='no']")),
-        section("Schnitz Chips, Sides &amp; Dips Prices", "", shortcode("[sm_price_table cat='chips-dips' intro='no']")),
-        section("Schnitz Drinks Prices", "", shortcode("[sm_price_table cat='drinks' intro='no']")),
+        section("Schnitz Wraps &amp; Burgers Prices", "", shortcode("[sm_price_table cat='wraps-burgers' intro='no' image='no']")),
+        section("Schnitz Plates Prices", "", shortcode("[sm_price_table cat='plates' intro='no' image='no']")),
+        section("Schnitz Tenders &amp; Schnacks Prices", "", shortcode("[sm_price_table cat='tenders-schnacks' intro='no' image='no']")),
+        section("Schnitz Salads Prices", "", shortcode("[sm_price_table cat='salads' intro='no' image='no']")),
+        section("Schnitz Kids Menu Prices", "", shortcode("[sm_price_table cat='kids' intro='no' image='no']")),
+        section("Schnitz Chips, Sides &amp; Dips Prices", "", shortcode("[sm_price_table cat='chips-dips' intro='no' image='no']")),
+        section("Schnitz Drinks Prices", "", shortcode("[sm_price_table cat='drinks' intro='no' image='no']")),
         section("Why Schnitz Prices Differ Between Stores",
                 "<ul><li><strong>Location.</strong> Airport, stadium and CBD stores often charge more to cover higher rent.</li>"
                 "<li><strong>Pickup vs delivery.</strong> Delivery menus are commonly 15&#8211;30% higher than in-store prices.</li>"
@@ -267,6 +273,7 @@ def prices():
                 "tenders (about $7.90 approx.). For a full meal on a budget, look out for value deals that bundle a "
                 "small wrap, mini chips and a drink, which have sold for around $10 in the past.</p>"),
         faq("Schnitz Prices FAQ", limit=8),
+        container([shortcode("[sm_author]")], pad=(10, 0, 10, 0)),
         related("Related Schnitz Guides", "schnitz-menu,schnitz-coupons,schnitz-calories,schnitz-kids-menu"),
     ]
 
@@ -279,8 +286,8 @@ def calories():
     return [
         hero("Schnitz Calories &amp; Nutrition Guide 2026 (Australia)",
              "How many calories are in a Schnitz schnitzel? Calorie and kilojoule counts for popular Schnitz items, "
-             "a top-10 chart and tips for a lighter order."),
-        container([
+             "a top-10 chart and tips for a lighter order.", image="cat-salads"),
+        container([shortcode("[sm_breadcrumbs]"), 
             text(
                 "<p>Schnitz meals are hearty. A classic <strong>Schnitzel &amp; Chips</strong> comes in at roughly "
                 "<strong>779 calories (3,259 kJ)</strong>, a <strong>Parma &amp; Chips</strong> at about <strong>897 "
@@ -307,6 +314,7 @@ def calories():
                 "single item at around 1,150 calories (approx.). Large tender packs meant for sharing will be higher "
                 "in total, but they are designed to split between two or more people.</p>"),
         faq("Schnitz Nutrition FAQ", limit=6),
+        container([shortcode("[sm_author]")], pad=(10, 0, 10, 0)),
         related("Related Schnitz Guides", "schnitz-allergen-menu,schnitz-menu,schnitz-menu-prices"),
     ]
 
@@ -319,8 +327,8 @@ def allergens():
     return [
         hero("Schnitz Allergen Menu 2026 &#8211; Gluten, Egg, Milk, Soy &amp; Sesame",
              "A clear allergen guide for the Schnitz menu in Australia, organised by crumb and coating. Always confirm "
-             "with your local store before ordering."),
-        container([
+             "with your local store before ordering.", image="cat-tenders-schnacks"),
+        container([shortcode("[sm_breadcrumbs]"), 
             text(
                 "<p><strong>Important:</strong> this guide summarises publicly available allergen information to help "
                 "you plan. It is not medical advice. Schnitz kitchens handle wheat, egg, milk, soy and sesame, so "
@@ -348,6 +356,7 @@ def allergens():
                 "vegan or allergen free: crumbs, buns and sauces may contain egg or milk. Check the official chart for "
                 "the exact combination you want.</p>"),
         faq("Schnitz Allergen FAQ", limit=6),
+        container([shortcode("[sm_author]")], pad=(10, 0, 10, 0)),
         related("Related Schnitz Guides", "schnitz-calories,schnitz-menu,schnitz-kids-menu"),
     ]
 
@@ -359,8 +368,8 @@ def allergens():
 def kids():
     return [
         hero("Schnitz Kids Menu 2026 &#8211; Little Rascals Meals &amp; Prices",
-             "What is on the Schnitz kids menu, how much it costs and what comes in each pack."),
-        container([text(
+             "What is on the Schnitz kids menu, how much it costs and what comes in each pack.", image="cat-kids"),
+        container([shortcode("[sm_breadcrumbs]"), text(
             "<p>The Schnitz kids menu, called <strong>Little Rascals</strong>, was refreshed with two main options: the "
             "<strong>Kiddy Schnugget Pack</strong> and the <strong>Teeny Weeny</strong>. Both come as a complete meal "
             "with mini chips and a drink, which makes them an easy choice for younger eaters.</p>"
@@ -376,6 +385,7 @@ def kids():
                 "<ul><li>Ask for sauce on the side for fussy eaters.</li>"
                 "<li>Family bundles can be cheaper than separate kids meals for larger groups.</li>"
                 "<li>Swap the soft drink for water where offered.</li></ul>", tint=True),
+        container([shortcode("[sm_author]")], pad=(10, 0, 10, 0)),
         related("Related Schnitz Guides", "schnitz-menu,schnitz-allergen-menu,schnitz-coupons"),
     ]
 
@@ -387,8 +397,8 @@ def kids():
 def deals():
     return [
         hero("Schnitz Deals &amp; Coupons 2026 &#8211; Bundles and Specials",
-             "The latest Schnitz meal deals, family bundles and limited-time specials we have seen in Australia."),
-        container([text(
+             "The latest Schnitz meal deals, family bundles and limited-time specials we have seen in Australia.", image="cat-chips-dips"),
+        container([shortcode("[sm_breadcrumbs]"), text(
             "<p>Schnitz regularly runs value deals through its app and in store &#8211; from cheap lunch bundles to "
             "family feasts. Deals are usually limited-time and may only run in some states, so treat the list below "
             "as a guide to what to look for, and check the official app for what is on today.</p>")], pad=(24, 0, 0, 0)),
@@ -398,6 +408,7 @@ def deals():
                 "<li><strong>Use the official app.</strong> App-only deals and specials appear there first.</li>"
                 "<li><strong>Buy a bundle.</strong> Family and race-day bundles cost less than ordering items separately.</li>"
                 "<li><strong>Watch for one-day specials.</strong> Schnitz has run $5 schnitzel days in the past.</li></ul>"),
+        container([shortcode("[sm_author]")], pad=(10, 0, 10, 0)),
         related("Related Schnitz Guides", "schnitz-menu-prices,schnitz-menu,schnitz-kids-menu"),
     ]
 
