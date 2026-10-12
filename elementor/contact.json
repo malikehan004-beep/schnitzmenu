@@ -1,0 +1,203 @@
+{
+ "version": "0.4",
+ "title": "SchnitzMenu - Contact",
+ "type": "page",
+ "page_settings": {
+  "hide_title": "yes"
+ },
+ "content": [
+  {
+   "id": "190f83f",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "44",
+     "right": "40",
+     "bottom": "44",
+     "left": "40",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "28",
+     "right": "16",
+     "bottom": "28",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    },
+    "css_classes": "sm-hero",
+    "background_background": "classic",
+    "background_color": "#D4471A",
+    "min_height": {
+     "unit": "px",
+     "size": 180,
+     "sizes": []
+    },
+    "flex_justify_content": "center"
+   },
+   "elements": [
+    {
+     "id": "a1f55c2",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>[sm_updated]</p>",
+      "_css_classes": "sm-hero-badge"
+     },
+     "elements": []
+    },
+    {
+     "id": "7dbd14e",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Contact SchnitzMenu.com",
+      "header_size": "h1",
+      "title_color": "#FFFFFF",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "700",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 40,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 27,
+       "sizes": []
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "ec2a3a8",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Questions, corrections or partnership enquiries &#8211; we would love to hear from you.</p>",
+      "text_color": "#FFDDD0",
+      "typography_typography": "custom",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 18,
+       "sizes": []
+      }
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "677b2d5",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "7fdf680",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Get in Touch",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "5afa506",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Email us at <a href='mailto:hello@schnitzmenu.com'>hello@schnitzmenu.com</a>. We usually reply within two business days.</p><p><strong>Please note:</strong> we are an independent guide and cannot help with orders, refunds or store complaints. For those, contact Schnitz directly through the official website or app.</p>"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "91eca31",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "fa18922",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Report a Price Change",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "9eab0d3",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>If a price, item or allergen detail on this site is out of date, tell us the item, the store and the price you paid. Every correction helps keep the guide accurate for everyone.</p>"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  }
+ ]
+}

@@ -1,0 +1,458 @@
+{
+ "version": "0.4",
+ "title": "SchnitzMenu - Privacy Policy",
+ "type": "page",
+ "page_settings": {
+  "hide_title": "yes"
+ },
+ "content": [
+  {
+   "id": "bdfdc34",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "44",
+     "right": "40",
+     "bottom": "44",
+     "left": "40",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "28",
+     "right": "16",
+     "bottom": "28",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    },
+    "css_classes": "sm-hero",
+    "background_background": "classic",
+    "background_color": "#D4471A",
+    "min_height": {
+     "unit": "px",
+     "size": 180,
+     "sizes": []
+    },
+    "flex_justify_content": "center"
+   },
+   "elements": [
+    {
+     "id": "4393faa",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>[sm_updated]</p>",
+      "_css_classes": "sm-hero-badge"
+     },
+     "elements": []
+    },
+    {
+     "id": "abd8c74",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Privacy Policy",
+      "header_size": "h1",
+      "title_color": "#FFFFFF",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "700",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 40,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 27,
+       "sizes": []
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "76f643c",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>How SchnitzMenu.com collects, uses and protects your information.</p>",
+      "text_color": "#FFDDD0",
+      "typography_typography": "custom",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 18,
+       "sizes": []
+      }
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "756ab10",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "a847d61",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Overview",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "ad3139c",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>This policy explains how SchnitzMenu.com (we, us) handles personal information. We follow the Australian Privacy Principles in the Privacy Act 1988 (Cth). By using this site you agree to this policy.</p>"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "ad8a2f7",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "bedb11b",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Information We Collect",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "026d5f5",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<ul><li><strong>Information you give us</strong> &#8211; such as your name and email when you contact us or subscribe to updates.</li><li><strong>Usage information</strong> &#8211; pages visited, device and browser type, and approximate location, collected through cookies and analytics tools such as Google Analytics.</li></ul>"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "134969c",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "8ca9f58",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Cookies and Advertising",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "24acca8",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>We use cookies to understand how the site is used and to show advertising. Third-party vendors, including Google, use cookies to serve ads based on your previous visits to this and other websites. Google's use of advertising cookies enables it and its partners to serve ads based on your visits to this site and/or other sites on the internet.</p><p>You can opt out of personalised advertising by visiting <a href='https://adssettings.google.com' rel='nofollow noopener' target='_blank'>Google Ads Settings</a> or <a href='https://www.aboutads.info' rel='nofollow noopener' target='_blank'>aboutads.info</a>. You can also block or delete cookies in your browser settings.</p>"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "411b4e8",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "37acbb0",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Affiliate Links",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "3bf3351",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Some links to food delivery services are affiliate links. If you order through them we may earn a small commission at no extra cost to you. These services have their own privacy policies.</p>"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "4b03d4c",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "d0680f1",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "How We Use Information",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "0157f45",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<ul><li>To reply to your messages.</li><li>To improve the site and its content.</li><li>To show relevant advertising.</li><li>To meet legal obligations.</li></ul><p>We do not sell your personal information.</p>"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "91b7f54",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "076ef39",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Access, Correction and Complaints",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "2a0dc33",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>You can ask to access or correct the personal information we hold about you by emailing <a href='mailto:hello@schnitzmenu.com'>hello@schnitzmenu.com</a>. If you are unhappy with how we handled your information you can contact the Office of the Australian Information Commissioner (OAIC).</p>"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "6ccd26e",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "6de3ff9",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Changes to This Policy",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "80f1098",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>We may update this policy from time to time. The latest version is always on this page.</p>"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  }
+ ]
+}

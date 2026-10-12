@@ -1,0 +1,1077 @@
+{
+ "version": "0.4",
+ "title": "SchnitzMenu - Schnitz Menu",
+ "type": "page",
+ "page_settings": {
+  "hide_title": "yes"
+ },
+ "content": [
+  {
+   "id": "b7fb684",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "44",
+     "right": "40",
+     "bottom": "44",
+     "left": "40",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "28",
+     "right": "16",
+     "bottom": "28",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    },
+    "css_classes": "sm-hero",
+    "background_background": "classic",
+    "background_color": "#D4471A",
+    "min_height": {
+     "unit": "px",
+     "size": 220,
+     "sizes": []
+    },
+    "flex_justify_content": "center"
+   },
+   "elements": [
+    {
+     "id": "5297993",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>[sm_updated]</p>",
+      "_css_classes": "sm-hero-badge"
+     },
+     "elements": []
+    },
+    {
+     "id": "503b529",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Schnitz Menu 2026 &#8211; Full Menu with Prices &amp; Calories (Australia)",
+      "header_size": "h1",
+      "title_color": "#FFFFFF",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "700",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 40,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 27,
+       "sizes": []
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "50f5872",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Every item on the Schnitz menu in one place: wraps and burgers, schnitzel plates, salads, tenders, kids meals, chips and drinks. Updated monthly. Unofficial guide &#8211; not affiliated with Schnitz International.</p>",
+      "text_color": "#FFDDD0",
+      "typography_typography": "custom",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 18,
+       "sizes": []
+      }
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "53bf153",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "0",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "cfbd4c7",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Looking at the Schnitz menu for the first time can be a little overwhelming. You pick a protein, a crumb or flavour, then decide whether you want it in a burger, a wrap, on a plate or on a salad. This guide lays the whole menu out category by category, with an approximate Australian price and calorie count wherever one is publicly available.</p><p>Use the search box to find an item fast, tap a column heading to sort by price or calories, or press <strong>+</strong> next to any item to build a meal and see the running total. Prices are typical pickup prices &#8211; delivery apps usually charge more, and some stores (airports, stadiums, CBD food courts) price higher again.</p>"
+     },
+     "elements": []
+    },
+    {
+     "id": "941fdb6",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_jump_nav]"
+     },
+     "elements": []
+    },
+    {
+     "id": "bfeda53",
+     "elType": "container",
+     "settings": {
+      "content_width": "boxed",
+      "flex_direction": "column",
+      "padding": {
+       "unit": "px",
+       "top": "10",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "10",
+       "right": "16",
+       "bottom": "0",
+       "left": "16",
+       "isLinked": false
+      },
+      "boxed_width": {
+       "unit": "px",
+       "size": 1200,
+       "sizes": []
+      },
+      "flex_gap": {
+       "unit": "px",
+       "size": 10,
+       "column": "10",
+       "row": "10",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "a3d1b0d",
+       "elType": "widget",
+       "widgetType": "shortcode",
+       "settings": {
+        "shortcode": "[sm_menu_search]"
+       },
+       "elements": []
+      },
+      {
+       "id": "f5b7ca6",
+       "elType": "widget",
+       "widgetType": "shortcode",
+       "settings": {
+        "shortcode": "[sm_print]"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "763b48c",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "30",
+     "right": "24",
+     "bottom": "30",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "28",
+     "right": "16",
+     "bottom": "28",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    },
+    "css_classes": "sm-band",
+    "background_background": "classic",
+    "background_color": "#FFF3EE"
+   },
+   "elements": [
+    {
+     "id": "abc14a7",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "How to Order at Schnitz",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "60a6f08",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<ol><li><strong>Choose your schnitzel.</strong> Chicken is the classic. Beef and plant-based schnitzels are available in most wraps and burgers.</li><li><strong>Pick a crumb or flavour.</strong> Traditional crumbs, spicy crumbs, a buttermilk breader, or a crumb-free flavour such as lemon pepper or Moroccan spices.</li><li><strong>Pick a format.</strong> Burger, wrap, plate with chips, or salad.</li><li><strong>Add sides and a drink.</strong> Chips, sweet potato chips, slaw, dips and soft drinks.</li></ol>"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "0020089",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "9d51765",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Schnitz Wraps &amp; Burgers Prices 2026",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "5a114ec",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_price_table cat='wraps-burgers']"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "fd03f59",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "b617124",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Schnitz Schnitzel Plates Prices 2026",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "bd0203c",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_price_table cat='plates']"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "5ce2fe4",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "e63275a",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Schnitz Schnacks &amp; Tenders Prices",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "e9d04ed",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_price_table cat='tenders-schnacks']"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "2828dfc",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "2c52fa7",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Schnitz Salads Menu",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "af710f3",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_price_table cat='salads']"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "fe2dd50",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "b23a014",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Schnitz Kids Menu (Little Rascals)",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "bd26cec",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_price_table cat='kids']"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "e38e4e4",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "10b330f",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Schnitz Chips, Sides &amp; Dips",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "cc9a388",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_price_table cat='chips-dips']"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "de8e648",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "89f7f31",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Schnitz Drinks Menu",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "39b744b",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_price_table cat='drinks']"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "ea4847d",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "30",
+     "right": "24",
+     "bottom": "30",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "28",
+     "right": "16",
+     "bottom": "28",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    },
+    "css_classes": "sm-band",
+    "background_background": "classic",
+    "background_color": "#FFF3EE",
+    "_element_id": "calories"
+   },
+   "elements": [
+    {
+     "id": "25c4467",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Schnitz Calories &#8211; Highest Calorie Items",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "f2e1f50",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>If you are watching your energy intake, the plates with chips are the big ones. A loaded schnitzel with chips can pass 1,000 calories on its own. Calorie figures below come from third-party nutrition databases and should be treated as estimates.</p>"
+     },
+     "elements": []
+    },
+    {
+     "id": "134d2ed",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_calorie_chart top='8']"
+     },
+     "elements": []
+    },
+    {
+     "id": "1560cb7",
+     "elType": "widget",
+     "widgetType": "button",
+     "settings": {
+      "text": "Full calorie guide",
+      "link": {
+       "url": "/schnitz-calories/",
+       "is_external": "",
+       "nofollow": "",
+       "custom_attributes": ""
+      },
+      "background_color": "#D4471A",
+      "button_text_color": "#FFFFFF",
+      "border_radius": {
+       "unit": "px",
+       "top": "6",
+       "right": "6",
+       "bottom": "6",
+       "left": "6",
+       "isLinked": true
+      },
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "700"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "e7328f5",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    },
+    "_element_id": "allergens"
+   },
+   "elements": [
+    {
+     "id": "3e97fe6",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Schnitz Allergen Information",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "a1f0df3",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>The chicken itself is listed with no allergens &#8211; it is the coating that matters. Traditional crumbs contain wheat, gluten, egg, milk, soy and sesame. See the full matrix before you order if you have a food allergy.</p>"
+     },
+     "elements": []
+    },
+    {
+     "id": "89371da",
+     "elType": "widget",
+     "widgetType": "button",
+     "settings": {
+      "text": "Open the allergen guide",
+      "link": {
+       "url": "/schnitz-allergen-menu/",
+       "is_external": "",
+       "nofollow": "",
+       "custom_attributes": ""
+      },
+      "background_color": "#D4471A",
+      "button_text_color": "#FFFFFF",
+      "border_radius": {
+       "unit": "px",
+       "top": "6",
+       "right": "6",
+       "bottom": "6",
+       "left": "6",
+       "isLinked": true
+      },
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "700"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "c0d2651",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "30",
+     "right": "24",
+     "bottom": "30",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "28",
+     "right": "16",
+     "bottom": "28",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    },
+    "css_classes": "sm-band",
+    "background_background": "classic",
+    "background_color": "#FFF3EE"
+   },
+   "elements": [
+    {
+     "id": "3ec67fd",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "About Schnitz in Australia",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "b3e9dec",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Schnitz started in Melbourne in 2002 with a simple idea: take the pub schnitzel, crumb it fresh in front of the customer, and serve it fast. More than twenty years later the chain has stores in shopping centres, high streets and food courts across several states.</p><p>What makes Schnitz different from other fast food chains is the cooking method. Schnitzels are crumbed by hand during service rather than arriving pre-crumbed and frozen, which is why the queue moves a little slower at lunch &#8211; and why fans think it is worth the wait.</p><p>The menu changes regularly with limited-time burgers, seasonal specials and family bundles. We check prices and new items at the start of every month and update this page.</p>"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "b3fb394",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "e7804b7",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Schnitz Value Deals &amp; Bundles",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "056cc65",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_deals]"
+     },
+     "elements": []
+    },
+    {
+     "id": "7b2f6b2",
+     "elType": "widget",
+     "widgetType": "button",
+     "settings": {
+      "text": "All deals and coupons",
+      "link": {
+       "url": "/schnitz-coupons/",
+       "is_external": "",
+       "nofollow": "",
+       "custom_attributes": ""
+      },
+      "background_color": "#D4471A",
+      "button_text_color": "#FFFFFF",
+      "border_radius": {
+       "unit": "px",
+       "top": "6",
+       "right": "6",
+       "bottom": "6",
+       "left": "6",
+       "isLinked": true
+      },
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "700"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "bff9c95",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    },
+    "_element_id": "faq"
+   },
+   "elements": [
+    {
+     "id": "ba11883",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Schnitz Menu FAQ",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "47427bd",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Quick answers to the questions Australians search most about Schnitz.</p>"
+     },
+     "elements": []
+    },
+    {
+     "id": "3b35c70",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_faq set='main']"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "dc28966",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "0dea38d",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "More Schnitz Guides",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "55ab236",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_related pages='schnitz-menu-prices,schnitz-calories,schnitz-allergen-menu,schnitz-kids-menu,schnitz-coupons']"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "be3014a",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "0",
+     "right": "16",
+     "bottom": "0",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "b6f8007",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_menu_schema]"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  }
+ ]
+}

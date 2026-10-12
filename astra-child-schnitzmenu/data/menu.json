@@ -1,0 +1,494 @@
+{
+  "updated": "October 2026",
+  "currency": "AUD",
+  "notes": "Prices are indicative pickup prices gathered from public sources (Frugal Feeds Oct 2026, Uber Eats/DoorDash store listings, QSR Media). null = not yet verified, shown as 'Varies'. Check every value against your local Schnitz store before publishing and refresh monthly.",
+  "categories": [
+    {
+      "slug": "wraps-burgers",
+      "name": "Wraps & Burgers",
+      "intro": "Every wrap and burger is built around a freshly crumbed schnitzel. Most can be ordered as either a burger or a wrap, with chicken, beef or plant-based schnitzel.",
+      "items": [
+        {
+          "name": "Plain & Simple",
+          "desc": "Schnitzel with cheese, baby cos lettuce, tomato, Spanish onion and original mayo.",
+          "kcal": null,
+          "price": null,
+          "tags": [
+            "classic"
+          ]
+        },
+        {
+          "name": "Basic Instinct",
+          "desc": "A no-fuss schnitzel burger or wrap - a good pick if you want the schnitzel to do the talking.",
+          "kcal": null,
+          "price": 14.7,
+          "tags": [
+            "value"
+          ]
+        },
+        {
+          "name": "The Swiss",
+          "desc": "Schnitzel layered with melted Swiss-style cheese and fresh salad.",
+          "kcal": null,
+          "price": 14.0,
+          "tags": []
+        },
+        {
+          "name": "The Hawaiian",
+          "desc": "Schnitzel with ham, pineapple and melted cheese.",
+          "kcal": null,
+          "price": 14.5,
+          "tags": []
+        },
+        {
+          "name": "Spice of Life",
+          "desc": "Spiced schnitzel for anyone who likes a little heat.",
+          "kcal": null,
+          "price": 14.5,
+          "tags": [
+            "spicy"
+          ]
+        },
+        {
+          "name": "The Aussie",
+          "desc": "A loaded, Aussie-style schnitzel burger or wrap.",
+          "kcal": null,
+          "price": 15.5,
+          "tags": [
+            "popular"
+          ]
+        },
+        {
+          "name": "Parmageddon",
+          "desc": "Parma-style schnitzel with napoli sauce and melted cheese, in a bun or wrap.",
+          "kcal": null,
+          "price": 15.5,
+          "tags": [
+            "popular"
+          ]
+        },
+        {
+          "name": "OMG!",
+          "desc": "The most loaded wrap or burger on the menu.",
+          "kcal": null,
+          "price": 16.9,
+          "tags": []
+        }
+      ]
+    },
+    {
+      "slug": "plates",
+      "name": "Schnitzel Plates",
+      "intro": "Plates pair a full-size schnitzel with chips (and salad on some plates). This is the classic sit-down Schnitz meal.",
+      "items": [
+        {
+          "name": "Schnitzel & Chips",
+          "desc": "A full chicken schnitzel served with a serve of chips.",
+          "kcal": 779,
+          "price": 19.5,
+          "tags": [
+            "classic",
+            "popular"
+          ]
+        },
+        {
+          "name": "Parma & Chips",
+          "desc": "Schnitzel topped with napoli sauce and melted cheese, with chips.",
+          "kcal": 897,
+          "price": 22.5,
+          "tags": [
+            "popular"
+          ]
+        },
+        {
+          "name": "Ham Parma & Chips",
+          "desc": "Parma with ham added under the cheese, served with chips.",
+          "kcal": null,
+          "price": 22.0,
+          "tags": []
+        },
+        {
+          "name": "Loaded Schnitzel & Chips",
+          "desc": "Schnitzel with extra toppings, served with chips.",
+          "kcal": 1150,
+          "price": 21.5,
+          "tags": []
+        },
+        {
+          "name": "Schnitzel, Chips & Salad",
+          "desc": "Schnitzel served with chips and a side salad.",
+          "kcal": null,
+          "price": 25.5,
+          "tags": []
+        }
+      ]
+    },
+    {
+      "slug": "tenders-schnacks",
+      "name": "Schnacks & Tenders",
+      "intro": "Smaller bites for a quick lunch or to share. Tom's Signature Tenders are sold in packs.",
+      "items": [
+        {
+          "name": "Original Tender (1 piece, 60g)",
+          "desc": "A single crumbed chicken tender - handy for counting calories.",
+          "kcal": 152,
+          "price": null,
+          "tags": []
+        },
+        {
+          "name": "3 Tenders",
+          "desc": "Three crumbed chicken tenders - a light snack.",
+          "kcal": null,
+          "price": 7.9,
+          "tags": [
+            "value"
+          ]
+        },
+        {
+          "name": "Tom's Signature Tenders (5 pack)",
+          "desc": "Five signature tenders. Price shown is the online/delivery price.",
+          "kcal": null,
+          "price": 23.9,
+          "tags": []
+        },
+        {
+          "name": "Tom's Signature Tenders (10 pack)",
+          "desc": "Ten signature tenders for sharing. Price shown is the online/delivery price.",
+          "kcal": null,
+          "price": 45.9,
+          "tags": []
+        },
+        {
+          "name": "Schnitz Stick",
+          "desc": "A schnitzel on a stick - easy to eat on the go.",
+          "kcal": 169,
+          "price": null,
+          "tags": []
+        },
+        {
+          "name": "Schnack Wrap",
+          "desc": "A smaller wrap, often sold in value deals with mini chips and a drink.",
+          "kcal": null,
+          "price": null,
+          "tags": [
+            "value"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "salads",
+      "name": "Salads",
+      "intro": "Main-size salads come topped with schnitzel. Side salads are sold separately.",
+      "items": [
+        {
+          "name": "Caesar Salad with Schnitzel",
+          "desc": "Cos lettuce, Caesar-style dressing and sliced schnitzel.",
+          "kcal": null,
+          "price": null,
+          "tags": []
+        },
+        {
+          "name": "Mediterranean Salad with Schnitzel",
+          "desc": "Fresh Mediterranean-style salad topped with schnitzel.",
+          "kcal": null,
+          "price": null,
+          "tags": []
+        },
+        {
+          "name": "Garden Salad (side)",
+          "desc": "Simple side salad.",
+          "kcal": null,
+          "price": null,
+          "tags": [
+            "vegetarian"
+          ]
+        },
+        {
+          "name": "Rainbow Slaw (side)",
+          "desc": "Crunchy coleslaw-style side.",
+          "kcal": null,
+          "price": null,
+          "tags": [
+            "vegetarian"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "kids",
+      "name": "Kids Menu (Little Rascals)",
+      "intro": "The kids menu was refreshed with the Kiddy Schnugget Pack and the Teeny Weeny.",
+      "items": [
+        {
+          "name": "Kiddy Schnugget Pack",
+          "desc": "Schnuggets (bite-size schnitzel pieces) with mini chips and a drink.",
+          "kcal": null,
+          "price": 11.0,
+          "tags": [
+            "kids"
+          ]
+        },
+        {
+          "name": "Teeny Weeny",
+          "desc": "Burger or wrap with schnitzel, tomato sauce and cheese, plus mini chips and a Pop Top.",
+          "kcal": null,
+          "price": null,
+          "tags": [
+            "kids"
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "chips-dips",
+      "name": "Chips, Sides & Dips",
+      "intro": "Chips come in several sizes up to a family serve. Sweet potato chips are available at some stores.",
+      "items": [
+        {
+          "name": "Chips",
+          "desc": "Golden chips, available in multiple sizes.",
+          "kcal": null,
+          "price": null,
+          "tags": [
+            "vegetarian"
+          ]
+        },
+        {
+          "name": "Family Chips",
+          "desc": "Large shareable serve of chips.",
+          "kcal": null,
+          "price": null,
+          "tags": [
+            "vegetarian"
+          ]
+        },
+        {
+          "name": "Sweet Potato Chips",
+          "desc": "Sweet potato fries (selected stores).",
+          "kcal": null,
+          "price": null,
+          "tags": [
+            "vegetarian"
+          ]
+        },
+        {
+          "name": "Dips",
+          "desc": "Add a dipping sauce to any meal.",
+          "kcal": null,
+          "price": 2.0,
+          "tags": []
+        }
+      ]
+    },
+    {
+      "slug": "drinks",
+      "name": "Drinks",
+      "intro": "Soft drinks and water are available in cans and bottles. Sizes and range vary by store.",
+      "items": [
+        {
+          "name": "Soft Drink (can)",
+          "desc": "Pepsi range soft drinks.",
+          "kcal": null,
+          "price": null,
+          "tags": []
+        },
+        {
+          "name": "Soft Drink (600ml)",
+          "desc": "Pepsi range soft drinks in a bottle.",
+          "kcal": null,
+          "price": null,
+          "tags": []
+        },
+        {
+          "name": "Water (600ml)",
+          "desc": "Still bottled water.",
+          "kcal": 0,
+          "price": null,
+          "tags": []
+        }
+      ]
+    }
+  ],
+  "deals": [
+    {
+      "name": "Race Feast",
+      "desc": "4 burgers or wraps, family chips and 4 drinks.",
+      "price": 70.0,
+      "seen": "2024 (limited time)"
+    },
+    {
+      "name": "Family Meal Deal",
+      "desc": "Family meal bundle, Monday to Thursday from 5pm.",
+      "price": 40.0,
+      "seen": "2023 (limited time)"
+    },
+    {
+      "name": "Value Deal",
+      "desc": "Schnack Wrap, mini chips and a 300ml drink.",
+      "price": 10.0,
+      "seen": "2024 (limited time)"
+    },
+    {
+      "name": "Spicy Schnuggets Pack",
+      "desc": "6 schnuggets, 300ml drink and peri peri sauce.",
+      "price": 9.5,
+      "seen": "2024 (limited time)"
+    },
+    {
+      "name": "Schnitzel & Chips + Pepsi",
+      "desc": "Schnitzel and chips with a Pepsi or Pepsi Max.",
+      "price": 14.0,
+      "seen": "Limited time"
+    }
+  ],
+  "allergens": {
+    "source": "https://schnitz.com.au/allergens/",
+    "columns": [
+      "Gluten",
+      "Wheat",
+      "Egg",
+      "Milk",
+      "Soy",
+      "Sesame"
+    ],
+    "rows": [
+      {
+        "name": "Chicken (uncrumbed protein)",
+        "values": [
+          "no",
+          "no",
+          "no",
+          "no",
+          "no",
+          "no"
+        ],
+        "note": "The protein itself is listed with no allergens - the coating is what matters."
+      },
+      {
+        "name": "Traditional Crumbs",
+        "values": [
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes",
+          "yes"
+        ],
+        "note": ""
+      },
+      {
+        "name": "Spicy Crumbs",
+        "values": [
+          "check",
+          "check",
+          "check",
+          "check",
+          "check",
+          "check"
+        ],
+        "note": "Check the official chart."
+      },
+      {
+        "name": "Buttermilk Breader",
+        "values": [
+          "check",
+          "check",
+          "check",
+          "yes",
+          "check",
+          "check"
+        ],
+        "note": "Contains buttermilk. Check the official chart for the rest."
+      },
+      {
+        "name": "Lemon Pepper (crumb-free flavour)",
+        "values": [
+          "yes",
+          "check",
+          "check",
+          "check",
+          "check",
+          "check"
+        ],
+        "note": "Crumb-free, but still listed as containing gluten."
+      },
+      {
+        "name": "Moroccan Spices (crumb-free flavour)",
+        "values": [
+          "check",
+          "check",
+          "check",
+          "check",
+          "check",
+          "check"
+        ],
+        "note": "Check the official chart."
+      }
+    ]
+  },
+  "faqs": {
+    "main": [
+      {
+        "q": "What is on the Schnitz menu in Australia in 2026?",
+        "a": "The Schnitz menu is built around hand-crumbed schnitzels in chicken, beef and plant-based versions. You can have them as wraps, burgers, plates with chips, salads, tenders and kids meals, plus chips, dips and drinks."
+      },
+      {
+        "q": "How much does Schnitz cost in Australia?",
+        "a": "Most wraps and burgers cost around $14 to $17 (approx.), and schnitzel plates with chips sit around $19.50 to $25.50 (approx.). Prices vary between stores and are usually higher on delivery apps."
+      },
+      {
+        "q": "Does Schnitz have a gluten free menu?",
+        "a": "Traditional crumbed schnitzels contain gluten, so they are not gluten free. Schnitz lists a gluten free wrap option on its allergen chart. If you have coeliac disease, talk to staff before ordering because cross-contact is possible in a busy kitchen."
+      },
+      {
+        "q": "What allergens are in a Schnitz schnitzel?",
+        "a": "The chicken itself is listed with no allergens. The traditional crumbs contain wheat, gluten, egg, milk, soy and sesame. Always check the official Schnitz allergen chart for the crumb and sauces you choose."
+      },
+      {
+        "q": "What is the healthiest item at Schnitz?",
+        "a": "A salad topped with schnitzel or a small serve of tenders is usually lighter than a plate with chips. Skipping the chips and creamy sauces is the easiest way to cut calories."
+      },
+      {
+        "q": "How many calories are in a Schnitz schnitzel and chips?",
+        "a": "Third-party nutrition databases list Schnitzel & Chips at about 779 kcal and Parma & Chips at about 897 kcal. Treat these as estimates - the official figures may differ."
+      },
+      {
+        "q": "Does Schnitz have a kids menu?",
+        "a": "Yes. The Little Rascals kids menu includes the Kiddy Schnugget Pack (around $11) and the Teeny Weeny, a small burger or wrap with mini chips and a Pop Top."
+      },
+      {
+        "q": "What are Schnitz opening hours?",
+        "a": "Most stores open from around 10:30 or 11am until about 9pm, but hours change by location, public holidays and shopping-centre trading hours. Check your local store before you go."
+      },
+      {
+        "q": "Can I order Schnitz on Menulog, Uber Eats or DoorDash?",
+        "a": "Yes, many Schnitz stores are listed on delivery apps such as Uber Eats and DoorDash. Delivery menu prices are often higher than in-store pickup prices."
+      },
+      {
+        "q": "Is Schnitz halal certified in Australia?",
+        "a": "Halal status can differ by supplier and by store, and we have not been able to confirm a national certification. Ask your local Schnitz store directly before ordering."
+      },
+      {
+        "q": "Does Schnitz have vegan or plant-based options?",
+        "a": "Schnitz offers a plant-based schnitzel in many of its wraps and burgers. Plant-based does not always mean vegan, because crumbs and sauces can contain egg or milk - check the allergen chart."
+      },
+      {
+        "q": "What is the cheapest item on the Schnitz menu?",
+        "a": "Dips (about $2) and small snacks such as 3 Tenders (about $7.90) are the cheapest items. For a full meal, look out for value deals that bundle a wrap, mini chips and a drink."
+      },
+      {
+        "q": "Does Schnitz have a rewards app?",
+        "a": "Schnitz runs online ordering and app-based promotions from time to time. Check the official Schnitz website or app store for the current rewards program."
+      },
+      {
+        "q": "How do I find the nearest Schnitz?",
+        "a": "Use the store locator on the official Schnitz website or search 'Schnitz near me' in Google Maps. Schnitz has stores across Victoria, New South Wales, Queensland, South Australia and more."
+      },
+      {
+        "q": "Does Schnitz change its menu seasonally?",
+        "a": "Yes. Schnitz regularly runs limited-time menu items and deals, such as special burgers and family bundles. We update this guide every month to include new items."
+      }
+    ]
+  }
+}

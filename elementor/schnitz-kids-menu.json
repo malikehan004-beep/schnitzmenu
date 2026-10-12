@@ -1,0 +1,352 @@
+{
+ "version": "0.4",
+ "title": "SchnitzMenu - Schnitz Kids Menu",
+ "type": "page",
+ "page_settings": {
+  "hide_title": "yes"
+ },
+ "content": [
+  {
+   "id": "d16849b",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "44",
+     "right": "40",
+     "bottom": "44",
+     "left": "40",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "28",
+     "right": "16",
+     "bottom": "28",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    },
+    "css_classes": "sm-hero",
+    "background_background": "classic",
+    "background_color": "#D4471A",
+    "min_height": {
+     "unit": "px",
+     "size": 220,
+     "sizes": []
+    },
+    "flex_justify_content": "center"
+   },
+   "elements": [
+    {
+     "id": "8867a69",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>[sm_updated]</p>",
+      "_css_classes": "sm-hero-badge"
+     },
+     "elements": []
+    },
+    {
+     "id": "a0ec51e",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Schnitz Kids Menu 2026 &#8211; Little Rascals Meals &amp; Prices",
+      "header_size": "h1",
+      "title_color": "#FFFFFF",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "700",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 40,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 27,
+       "sizes": []
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0c34c96",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>What is on the Schnitz kids menu, how much it costs and what comes in each pack.</p>",
+      "text_color": "#FFDDD0",
+      "typography_typography": "custom",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 18,
+       "sizes": []
+      }
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "37a55c3",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "0",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "a83cdcc",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>The Schnitz kids menu, called <strong>Little Rascals</strong>, was refreshed with two main options: the <strong>Kiddy Schnugget Pack</strong> and the <strong>Teeny Weeny</strong>. Both come as a complete meal with mini chips and a drink, which makes them an easy choice for younger eaters.</p><p>The Kiddy Schnugget Pack launched at around <strong>$11 (approx.)</strong>. Prices vary between stores, so check with your local Schnitz.</p>"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "968943a",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "30",
+     "right": "24",
+     "bottom": "30",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "28",
+     "right": "16",
+     "bottom": "28",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    },
+    "css_classes": "sm-band",
+    "background_background": "classic",
+    "background_color": "#FFF3EE"
+   },
+   "elements": [
+    {
+     "id": "ccd5c4b",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Schnitz Kids Menu Prices",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "c90d019",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_price_table cat='kids']"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "f994e2a",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "e8bed46",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "What Comes in a Schnitz Kids Meal?",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "ae03502",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<ul><li><strong>Kiddy Schnugget Pack</strong> &#8211; bite-size schnitzel pieces (schnuggets), mini chips and a drink.</li><li><strong>Teeny Weeny</strong> &#8211; a small burger or wrap with schnitzel, tomato sauce and cheese, plus mini chips and a Pop Top.</li></ul><p>Kids meals use the same crumbs as the main menu, so the same allergen rules apply. See the allergen guide if your child has a food allergy.</p>"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "4f8ff67",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "30",
+     "right": "24",
+     "bottom": "30",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "28",
+     "right": "16",
+     "bottom": "28",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    },
+    "css_classes": "sm-band",
+    "background_background": "classic",
+    "background_color": "#FFF3EE"
+   },
+   "elements": [
+    {
+     "id": "fb0e7c3",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Tips for Ordering for Kids",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "315b94a",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<ul><li>Ask for sauce on the side for fussy eaters.</li><li>Family bundles can be cheaper than separate kids meals for larger groups.</li><li>Swap the soft drink for water where offered.</li></ul>"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "6f7e284",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "1def913",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Related Schnitz Guides",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "0c5c9c1",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_related pages='schnitz-menu,schnitz-allergen-menu,schnitz-coupons']"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  }
+ ]
+}

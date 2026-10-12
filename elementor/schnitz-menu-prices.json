@@ -1,0 +1,782 @@
+{
+ "version": "0.4",
+ "title": "SchnitzMenu - Schnitz Menu Prices",
+ "type": "page",
+ "page_settings": {
+  "hide_title": "yes"
+ },
+ "content": [
+  {
+   "id": "7cf4344",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "44",
+     "right": "40",
+     "bottom": "44",
+     "left": "40",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "28",
+     "right": "16",
+     "bottom": "28",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    },
+    "css_classes": "sm-hero",
+    "background_background": "classic",
+    "background_color": "#D4471A",
+    "min_height": {
+     "unit": "px",
+     "size": 220,
+     "sizes": []
+    },
+    "flex_justify_content": "center"
+   },
+   "elements": [
+    {
+     "id": "96db685",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>[sm_updated]</p>",
+      "_css_classes": "sm-hero-badge"
+     },
+     "elements": []
+    },
+    {
+     "id": "1f54762",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Schnitz Menu Prices 2026 &#8211; Full Price List (Australia)",
+      "header_size": "h1",
+      "title_color": "#FFFFFF",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "700",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 40,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 27,
+       "sizes": []
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "c9f55ce",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Approximate Australian prices for every Schnitz wrap, burger, plate, tender, kids meal and side. Sort by price, search the list and build a meal to see your total.</p>",
+      "text_color": "#FFDDD0",
+      "typography_typography": "custom",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 18,
+       "sizes": []
+      }
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "a39a83a",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "0",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "c4bab1e",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>How much does Schnitz cost? In most Australian stores a schnitzel wrap or burger sits between about <strong>$14 and $17 (approx.)</strong>, while a schnitzel plate with chips costs roughly <strong>$19.50 to $25.50 (approx.)</strong>. Kids meals start around <strong>$11 (approx.)</strong> and a dip is about <strong>$2 (approx.)</strong>.</p><p>The prices below are typical pickup prices collected from public sources and store listings. They change between states and stores, and delivery apps such as Uber Eats and DoorDash usually add a mark-up. Where we could not confirm a price, the table says <em>Varies</em> rather than guessing.</p>"
+     },
+     "elements": []
+    },
+    {
+     "id": "40c25b1",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_jump_nav]"
+     },
+     "elements": []
+    },
+    {
+     "id": "2ff857e",
+     "elType": "container",
+     "settings": {
+      "content_width": "boxed",
+      "flex_direction": "column",
+      "padding": {
+       "unit": "px",
+       "top": "10",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "padding_mobile": {
+       "unit": "px",
+       "top": "10",
+       "right": "16",
+       "bottom": "0",
+       "left": "16",
+       "isLinked": false
+      },
+      "boxed_width": {
+       "unit": "px",
+       "size": 1200,
+       "sizes": []
+      },
+      "flex_gap": {
+       "unit": "px",
+       "size": 10,
+       "column": "10",
+       "row": "10",
+       "isLinked": true
+      }
+     },
+     "elements": [
+      {
+       "id": "e58787a",
+       "elType": "widget",
+       "widgetType": "shortcode",
+       "settings": {
+        "shortcode": "[sm_menu_search]"
+       },
+       "elements": []
+      },
+      {
+       "id": "71b460b",
+       "elType": "widget",
+       "widgetType": "shortcode",
+       "settings": {
+        "shortcode": "[sm_print]"
+       },
+       "elements": []
+      }
+     ],
+     "isInner": false
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "64dc4e2",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "901a59d",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Schnitz Wraps &amp; Burgers Prices",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "07a4ad8",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_price_table cat='wraps-burgers' intro='no']"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "cc0618c",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "15eebd8",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Schnitz Plates Prices",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "1c1dd32",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_price_table cat='plates' intro='no']"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "78e731d",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "9d12350",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Schnitz Tenders &amp; Schnacks Prices",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "fae35a0",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_price_table cat='tenders-schnacks' intro='no']"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "5e6cf5f",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "aafde65",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Schnitz Salads Prices",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "12003ca",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_price_table cat='salads' intro='no']"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "181620a",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "122ea1c",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Schnitz Kids Menu Prices",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "93f589d",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_price_table cat='kids' intro='no']"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "9b26d41",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "efc673a",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Schnitz Chips, Sides &amp; Dips Prices",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "5538c12",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_price_table cat='chips-dips' intro='no']"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "e22c8fa",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "bf2b7be",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Schnitz Drinks Prices",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "74535b0",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_price_table cat='drinks' intro='no']"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "d9bb3fe",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "30",
+     "right": "24",
+     "bottom": "30",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "28",
+     "right": "16",
+     "bottom": "28",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    },
+    "css_classes": "sm-band",
+    "background_background": "classic",
+    "background_color": "#FFF3EE"
+   },
+   "elements": [
+    {
+     "id": "484e463",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Why Schnitz Prices Differ Between Stores",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "3eba01d",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<ul><li><strong>Location.</strong> Airport, stadium and CBD stores often charge more to cover higher rent.</li><li><strong>Pickup vs delivery.</strong> Delivery menus are commonly 15&#8211;30% higher than in-store prices.</li><li><strong>State.</strong> Wages and supply costs vary between states, so do prices.</li><li><strong>Deals.</strong> App-only and limited-time bundles can be much cheaper than ordering items separately.</li></ul><p>Tip: if you are feeding a family, compare the bundle price against ordering items one by one using the meal builder on this page.</p>"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "ebdb146",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "6842596",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Cheapest Items on the Schnitz Menu",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "f96cb94",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>The cheapest things you can buy at Schnitz are a dipping sauce (about $2 approx.) and a small serve of tenders (about $7.90 approx.). For a full meal on a budget, look out for value deals that bundle a small wrap, mini chips and a drink, which have sold for around $10 in the past.</p>"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "1b429eb",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    },
+    "_element_id": "faq"
+   },
+   "elements": [
+    {
+     "id": "ed0ab50",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Schnitz Prices FAQ",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "b68cb54",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Quick answers to the questions Australians search most about Schnitz.</p>"
+     },
+     "elements": []
+    },
+    {
+     "id": "d0c16c3",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_faq set='main' limit='8']"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "7a57c12",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "93a81f0",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Related Schnitz Guides",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "994abc5",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_related pages='schnitz-menu,schnitz-coupons,schnitz-calories,schnitz-kids-menu']"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  }
+ ]
+}

@@ -1,0 +1,464 @@
+{
+ "version": "0.4",
+ "title": "SchnitzMenu - Schnitz Allergen Menu",
+ "type": "page",
+ "page_settings": {
+  "hide_title": "yes"
+ },
+ "content": [
+  {
+   "id": "a3fc2ba",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "44",
+     "right": "40",
+     "bottom": "44",
+     "left": "40",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "28",
+     "right": "16",
+     "bottom": "28",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    },
+    "css_classes": "sm-hero",
+    "background_background": "classic",
+    "background_color": "#D4471A",
+    "min_height": {
+     "unit": "px",
+     "size": 220,
+     "sizes": []
+    },
+    "flex_justify_content": "center"
+   },
+   "elements": [
+    {
+     "id": "16039b0",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>[sm_updated]</p>",
+      "_css_classes": "sm-hero-badge"
+     },
+     "elements": []
+    },
+    {
+     "id": "8c6c1d2",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Schnitz Allergen Menu 2026 &#8211; Gluten, Egg, Milk, Soy &amp; Sesame",
+      "header_size": "h1",
+      "title_color": "#FFFFFF",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "700",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 40,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 27,
+       "sizes": []
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "7b320c2",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>A clear allergen guide for the Schnitz menu in Australia, organised by crumb and coating. Always confirm with your local store before ordering.</p>",
+      "text_color": "#FFDDD0",
+      "typography_typography": "custom",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 18,
+       "sizes": []
+      }
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "fd5383e",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "0",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "0efb221",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p><strong>Important:</strong> this guide summarises publicly available allergen information to help you plan. It is not medical advice. Schnitz kitchens handle wheat, egg, milk, soy and sesame, so cross-contact is possible. If you have a serious allergy or coeliac disease, speak to the staff and check the official allergen chart before you order.</p><p>The key thing to understand about Schnitz allergens is that the <strong>protein itself (plain chicken) is listed with no allergens</strong>. Most allergens come from the crumb, the breader and the sauces. Choosing a different coating changes what you are eating.</p>"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "9587775",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "30",
+     "right": "24",
+     "bottom": "30",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "28",
+     "right": "16",
+     "bottom": "28",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    },
+    "css_classes": "sm-band",
+    "background_background": "classic",
+    "background_color": "#FFF3EE"
+   },
+   "elements": [
+    {
+     "id": "ea1d6ed",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Schnitz Allergen Matrix by Crumb",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "ae546b6",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_allergens]"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "ccc863e",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "d2d9785",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Is Schnitz Gluten Free?",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "0d4e01a",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Traditional crumbed schnitzels are <strong>not gluten free</strong> &#8211; the flour, egg wash and breadcrumbs all contain gluten. Even the crumb-free lemon pepper flavour is listed as containing gluten. Schnitz does list a gluten free wrap on its allergen chart, but because gluten is everywhere in the kitchen, people with coeliac disease should ask staff how it is prepared before ordering.</p><p>In Australia a product can only be labelled gluten free if it contains no detectable gluten under the Food Standards Code, which is a very high bar for a busy fast food kitchen.</p>"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "5cc8d1d",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "30",
+     "right": "24",
+     "bottom": "30",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "28",
+     "right": "16",
+     "bottom": "28",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    },
+    "css_classes": "sm-band",
+    "background_background": "classic",
+    "background_color": "#FFF3EE"
+   },
+   "elements": [
+    {
+     "id": "91b274c",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Schnitz Egg, Milk, Soy and Sesame Allergies",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "e2416a6",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<ul><li><strong>Egg:</strong> used in traditional crumbing. Ask about crumb-free options.</li><li><strong>Milk:</strong> present in traditional crumbs, the buttermilk breader, cheese and many sauces.</li><li><strong>Soy:</strong> listed in traditional crumbs and some sauces.</li><li><strong>Sesame:</strong> listed in traditional crumbs and often in burger buns.</li></ul>"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "9f14977",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "f2d69d9",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Plant-Based and Vegan Options",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "c6cc656",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Schnitz offers a plant-based schnitzel in many burgers and wraps. Plant-based does not always mean vegan or allergen free: crumbs, buns and sauces may contain egg or milk. Check the official chart for the exact combination you want.</p>"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "ae60878",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    },
+    "_element_id": "faq"
+   },
+   "elements": [
+    {
+     "id": "b683c83",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Schnitz Allergen FAQ",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "2708c48",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Quick answers to the questions Australians search most about Schnitz.</p>"
+     },
+     "elements": []
+    },
+    {
+     "id": "8651b21",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_faq set='main' limit='6']"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  },
+  {
+   "id": "232f5cb",
+   "elType": "container",
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "16",
+     "left": "0",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "24",
+     "right": "16",
+     "bottom": "16",
+     "left": "16",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1200,
+     "sizes": []
+    }
+   },
+   "elements": [
+    {
+     "id": "d125db3",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Related Schnitz Guides",
+      "header_size": "h2"
+     },
+     "elements": []
+    },
+    {
+     "id": "e1e7375",
+     "elType": "widget",
+     "widgetType": "shortcode",
+     "settings": {
+      "shortcode": "[sm_related pages='schnitz-calories,schnitz-menu,schnitz-kids-menu']"
+     },
+     "elements": []
+    }
+   ],
+   "isInner": false
+  }
+ ]
+}
